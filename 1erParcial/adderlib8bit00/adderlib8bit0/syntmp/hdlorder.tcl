@@ -1,0 +1,1 @@
+project -fileorder "D:/LSCC/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd" "D:/Clases/Arqui/adderlib8bit00/adderlib8bit00.vhdl" 

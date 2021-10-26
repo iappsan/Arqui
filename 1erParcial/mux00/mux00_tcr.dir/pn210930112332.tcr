@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/30/2021 11:18:19
+#Project Location: D:/Clases/Arqui/mux00; Project name: mux00
+prj_project open "D:/Clases/Arqui/mux00/mux00.ldf"
+pgr_project open "D:/Clases/Arqui/mux00/mux0/mux0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "D:/Clases/Arqui/mux00/mux0/mux0.xcf"
+pgr_project close
+#Stop recording: 9/30/2021 11:23:32

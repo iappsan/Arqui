@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/1/2021 14:59:49
+#Project Location: D:/Clases/Arqui/osc00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 10/1/2021 15:00:05

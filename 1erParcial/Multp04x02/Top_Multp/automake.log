@@ -1,0 +1,126 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "D:/Clases/Arqui/Multp04x02/Top_Multp" -path "D:/Clases/Arqui/Multp04x02"   "D:/Clases/Arqui/Multp04x02/Top_Multp/Multp04x02_Top_Multp.edi" "Multp04x02_Top_Multp.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to Multp04x02_Top_Multp.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 12 MB
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "D:/LSCC/diamond/3.12/ispfpga/xo2c00/data"  -p "D:/Clases/Arqui/Multp04x02/Top_Multp" -p "D:/Clases/Arqui/Multp04x02"  "Multp04x02_Top_Multp.ngo" "Multp04x02_Top_Multp.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'Multp04x02_Top_Multp.ngo' ...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'D:/LSCC/diamond/3.12/ispfpga/data/neomacro.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And00" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA23/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA23/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA22/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA22/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA21/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA21/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA20/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA20/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA13/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA13/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA12/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA12/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA11/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA11/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA10/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA10/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA03/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA03/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA02/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA02/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA01/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA01/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA00/FA_HA02/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="FA00/FA_HA01/HA_And01" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And33" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And32" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And31" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And30" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And23" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And22" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And21" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And20" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And13" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And12" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And11" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And10" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And03" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And02" arg2="And02x01"  />
+    <postMsg mid="1166315" type="Error"   dynamic="3" navigation="0" arg0="logical" arg1="And01" arg2="And02x01"  />
+    <postMsg mid="1163100" type="Error"   dynamic="2" navigation="0" arg0="40" arg1="0"  />
+
+Design Results:
+     77 blocks expanded
+        Unexpanded blocks:
+           Name = 'And00', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'HA_And01', Type = 'And02x01'
+           Name = 'And33', Type = 'And02x01'
+           Name = 'And32', Type = 'And02x01'
+           Name = 'And31', Type = 'And02x01'
+           Name = 'And30', Type = 'And02x01'
+           Name = 'And23', Type = 'And02x01'
+           Name = 'And22', Type = 'And02x01'
+           Name = 'And21', Type = 'And02x01'
+           Name = 'And20', Type = 'And02x01'
+           Name = 'And13', Type = 'And02x01'
+           Name = 'And12', Type = 'And02x01'
+           Name = 'And11', Type = 'And02x01'
+           Name = 'And10', Type = 'And02x01'
+           Name = 'And03', Type = 'And02x01'
+           Name = 'And02', Type = 'And02x01'
+           Name = 'And01', Type = 'And02x01'
+Complete the first expansion.
+Writing 'Multp04x02_Top_Multp.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 19 MB
+

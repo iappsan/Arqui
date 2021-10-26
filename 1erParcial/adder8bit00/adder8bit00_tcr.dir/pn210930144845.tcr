@@ -1,0 +1,31 @@
+#Start recording tcl command: 9/30/2021 13:33:52
+#Project Location: D:/Clases/Arqui/adder8bit00; Project name: adder8bit00
+prj_project open "D:/Clases/Arqui/adder8bit00/adder8bit00.ldf"
+prj_src add "D:/Clases/Arqui/adder8bit00/ha00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/anda00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/xora00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/packageha00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/orao00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/packagefa00.vhd"
+prj_src add "D:/Clases/Arqui/adder8bit00/fa00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/xnora00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/packageadder4bit00.vhdl"
+prj_src add "D:/Clases/Arqui/adder8bit00/adder8bit00.vhdl"
+prj_run Export -impl adder8bit0 -task Jedecgen
+pgr_project save "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_src add -exclude "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_src enable "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_project close
+pgr_project open "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_program run
+prj_run Export -impl adder8bit0 -task Jedecgen
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "D:/Clases/Arqui/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_project close
+#Stop recording: 9/30/2021 14:48:45

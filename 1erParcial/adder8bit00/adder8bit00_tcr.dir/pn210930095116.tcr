@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/30/2021 09:50:09
+#Project Location: D:/Clases/Arqui/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 9/30/2021 09:51:16

@@ -1,0 +1,70 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : adder4bit0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 3
+FID:  path (prevtimestamp, timestamp)
+0        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04)
+2        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33)
+7        D:\Clases\Arqui\adder4bit00\packageha00.vhdl (2021-09-30 08:37:31, 2021-09-30 12:22:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 7
+MID:  lib.cell.view
+0        work.adder4bit00.adder4bit0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (architecture and entity definition)
+2        work.anda00.anda0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+                        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33) <-- (may instantiate this module)
+4        work.fa00.fa0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+                        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33) <-- (architecture and entity definition)
+6        work.ha00.ha0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+                        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33) <-- (may instantiate this module)
+8        work.orao00.orao0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+                        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33) <-- (may instantiate this module)
+11       work.xnora00.xnora0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+13       work.xora00.xora0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl (2021-09-30 09:38:43, 2021-09-30 12:49:04) <-- (may instantiate this module)
+                        D:\Clases\Arqui\adder4bit00\fa00.vhdl (2021-09-30 08:49:30, 2021-09-30 12:48:33) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 18
+FID:  path (timestamp)
+1        D:\Clases\Arqui\adder4bit00\anda00.vhdl (2021-08-31 09:00:46)
+3        D:\Clases\Arqui\adder4bit00\ha00.vhdl (2021-09-30 08:28:17)
+4        D:\Clases\Arqui\adder4bit00\orao00.vhdl (2021-09-30 08:39:54)
+5        D:\Clases\Arqui\adder4bit00\packageadder4bit00.vhdl (2021-09-30 09:05:07)
+6        D:\Clases\Arqui\adder4bit00\packagefa00.vhdl (2021-09-30 08:41:27)
+8        D:\Clases\Arqui\adder4bit00\xnora00.vhdl (2021-09-30 09:00:07)
+9        D:\Clases\Arqui\adder4bit00\xora00.vhdl (2021-08-31 09:01:49)
+10       D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-14 23:32:12)
+11       D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 09:20:44)
+12       D:\LSCC\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 09:23:10)
+13       D:\LSCC\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 09:23:10)
+14       D:\LSCC\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 16:26:20)
+15       D:\LSCC\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 09:23:10)
+16       D:\LSCC\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 09:23:10)
+17       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 09:23:10)
+18       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 09:23:10)
+19       D:\LSCC\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 09:23:10)
+20       D:\LSCC\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 09:23:10)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

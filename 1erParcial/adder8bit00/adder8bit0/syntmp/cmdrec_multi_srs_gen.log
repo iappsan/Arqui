@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  adder8bit00  -multisrs  D:\Clases\Arqui\adder8bit00\adder8bit0\synwork\adder8bit00_adder8bit0_comp.srs  -osyn  D:\Clases\Arqui\adder8bit00\adder8bit0\synwork\adder8bit00_adder8bit0_mult.srs  -log  D:\Clases\Arqui\adder8bit00\adder8bit0\synlog\adder8bit00_adder8bit0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top adder8bit00 -multisrs ..\synwork\adder8bit00_adder8bit0_comp.srs -osyn ..\synwork\adder8bit00_adder8bit0_mult.srs -log ..\synlog\adder8bit00_adder8bit0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder8bit00_adder8bit0_comp.srs|io:i|time:1633030490|size:5691|exec:0|csum:85ED8455A9A97C536A7B4F3C4A281EDC
+file:..\synwork\adder8bit00_adder8bit0_mult.srs|io:o|time:1633030491|size:3462|exec:0|csum:
+file:..\synlog\adder8bit00_adder8bit0_multi_srs_gen.srr|io:o|time:1633030491|size:1146|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

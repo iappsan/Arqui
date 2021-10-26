@@ -1,0 +1,20 @@
+#Start recording tcl command: 10/1/2021 11:35:01
+#Project Location: D:/Clases/Arqui/adderlib8bit00B; Project name: adderlib8bit00B
+prj_project new -name "adderlib8bit00B" -impl "adderlib8bit0B" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Clases/Arqui/adderlib8bit00B/adderlib8bit00B.vhdl"
+prj_run Export -impl adderlib8bit0B -task Jedecgen
+prj_run Export -impl adderlib8bit0B -task Jedecgen
+pgr_project save "D:/Clases/Arqui/adderlib8bit00B/adderlib8bit0B/adderlib8bit0B.xcf"
+prj_src add -exclude "D:/Clases/Arqui/adderlib8bit00B/adderlib8bit0B/adderlib8bit0B.xcf"
+prj_src enable "D:/Clases/Arqui/adderlib8bit00B/adderlib8bit0B/adderlib8bit0B.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "D:/Clases/Arqui/adderlib8bit00B/adderlib8bit0B/adderlib8bit0B.xcf"
+prj_project save
+prj_project close
+#Stop recording: 10/1/2021 12:19:58

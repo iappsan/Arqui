@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  Multp04x02  -multisrs  D:\Clases\Arqui\Multp04x02\Top_Multp\synwork\Multp04x02_Top_Multp_comp.srs  -osyn  D:\Clases\Arqui\Multp04x02\Top_Multp\synwork\Multp04x02_Top_Multp_mult.srs  -log  D:\Clases\Arqui\Multp04x02\Top_Multp\synlog\Multp04x02_Top_Multp_multi_srs_gen.srr 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top Multp04x02 -multisrs ..\synwork\Multp04x02_Top_Multp_comp.srs -osyn ..\synwork\Multp04x02_Top_Multp_mult.srs -log ..\synlog\Multp04x02_Top_Multp_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Multp04x02_Top_Multp_comp.srs|io:i|time:1633363923|size:5558|exec:0|csum:DFDB43ACE802AE7C41C325906CF5A463
+file:..\synwork\Multp04x02_Top_Multp_mult.srs|io:o|time:1633363924|size:3313|exec:0|csum:
+file:..\synlog\Multp04x02_Top_Multp_multi_srs_gen.srr|io:o|time:1633363924|size:1038|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

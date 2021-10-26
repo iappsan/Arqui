@@ -1,0 +1,1 @@
+run_tcl -fg adderlib8bit00_adderlib8bit0_synplify.tcl

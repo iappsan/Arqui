@@ -1,0 +1,19 @@
+#Start recording tcl command: 10/4/2021 10:50:01
+#Project Location: D:/Clases/Arqui/Multp04x02; Project name: Multp04x02
+prj_project new -name "Multp04x02" -impl "Top_Multp" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Clases/Arqui/Multp04x02/Multp04x02.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/HalfAdder02x01.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/FullAdder03x01.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/Package_Multiplicador_02x04.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/Package_FullAdder_03x01.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/PackageHalfAdder_02x01.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/Or02x01.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/Xor02x01.vhdl"
+prj_src remove "D:/Clases/Arqui/Multp04x02/Multp04x02.vhdl"
+prj_src add "D:/Clases/Arqui/Multp04x02/Multiplicador_02x04_00.vhdl"
+prj_run Export -impl Top_Multp -task Jedecgen
+prj_run Export -impl Top_Multp -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 10/4/2021 11:21:19

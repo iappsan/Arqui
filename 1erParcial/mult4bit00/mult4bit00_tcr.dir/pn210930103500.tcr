@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/30/2021 10:24:57
+#Project Location: D:/Clases/Arqui/mult4bit00; Project name: mult4bit00
+prj_project new -name "mult4bit00" -impl "mult4bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "D:/Clases/Arqui/fa00vhdl/anda00.vhdl" "D:/Clases/Arqui/fa00vhdl/fa00.vhdl" "D:/Clases/Arqui/fa00vhdl/ha00.vhdl" "D:/Clases/Arqui/fa00vhdl/orao.vhdl" "D:/Clases/Arqui/fa00vhdl/packagefa00.vhdl" "D:/Clases/Arqui/fa00vhdl/packageha00.vhdl" "D:/Clases/Arqui/fa00vhdl/xora00.vhdl"
+prj_project save
+prj_src add "D:/Clases/Arqui/mult4bit00/packagemult4bit00.vhdl"
+#Stop recording: 9/30/2021 10:35:00

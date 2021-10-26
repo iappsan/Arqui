@@ -1,0 +1,275 @@
+# Mon Oct  4 11:12:07 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : Top_Multp
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     4.56ns		  32 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 175MB)
+
+Writing Analyst data base D:\Clases\Arqui\Multp04x02\Top_Multp\synwork\Multp04x02_Top_Multp_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Clases\Arqui\Multp04x02\Top_Multp\Multp04x02_Top_Multp.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+@W: MT246 :"d:\clases\arqui\multp04x02\multiplicador_02x04_00.vhdl":52:1:52:5|Blackbox And02x01 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Oct  4 11:12:09 2021
+#
+
+
+Top view:               Multp04x02
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.654
+
+                   Requested     Estimated     Requested     Estimated               Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type       Group          
+---------------------------------------------------------------------------------------------------------------
+System             100.0 MHz     742.7 MHz     10.000        1.346         8.654     system     system_clkgroup
+===============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  10.000      8.654  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                         Arrival          
+Instance                  Reference     Type         Pin       Net         Time        Slack
+                          Clock                                                             
+--------------------------------------------------------------------------------------------
+And03                     System        And02x01     And_S     And0[3]     0.000       8.654
+And12                     System        And02x01     And_S     And1[2]     0.000       8.654
+And02                     System        And02x01     And_S     And0[2]     0.000       9.102
+And11                     System        And02x01     And_S     And1[1]     0.000       9.102
+And13                     System        And02x01     And_S     And1[3]     0.000       9.102
+And21                     System        And02x01     And_S     And2[1]     0.000       9.102
+And22                     System        And02x01     And_S     And2[2]     0.000       9.102
+And23                     System        And02x01     And_S     And2[3]     0.000       9.102
+FA02.FA_HA02.HA_And01     System        And02x01     And_S     HA02_Co     0.000       9.102
+FA03.FA_HA01.HA_And01     System        And02x01     And_S     HA01_Co     0.000       9.102
+============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                Required          
+Instance                  Reference     Type         Pin       Net                Time         Slack
+                          Clock                                                                     
+----------------------------------------------------------------------------------------------------
+FA20.FA_HA02.HA_And01     System        And02x01     And_B     Mu_S_c[3]          10.000       8.654
+FA20.FA_HA01.HA_And01     System        And02x01     And_B     FAS1[1]            10.000       8.654
+FA10.FA_HA02.HA_And01     System        And02x01     And_B     N_22_i             10.000       9.102
+FA22.FA_HA01.HA_And01     System        And02x01     And_B     Xor_S_i_0_x2_0     10.000       9.102
+FA11.FA_HA02.HA_And01     System        And02x01     And_B     HA01_S             10.000       9.102
+FA22.FA_HA02.HA_And01     System        And02x01     And_B     N_17_i             10.000       9.102
+FA21.FA_HA01.HA_And01     System        And02x01     And_B     FAS1[2]            10.000       9.102
+FA21.FA_HA02.HA_And01     System        And02x01     And_B     HA01_S             10.000       9.102
+FA13.FA_HA02.HA_And01     System        And02x01     And_A     FACo1[2]           10.000       9.551
+FA23.FA_HA02.HA_And01     System        And02x01     And_A     FACo2[2]           10.000       9.551
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.346
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     8.654
+
+    Number of logic level(s):                3
+    Starting point:                          And03 / And_S
+    Ending point:                            FA20.FA_HA01.HA_And01 / And_B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin       Pin               Arrival     No. of    
+Name                                 Type         Name      Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+And03                                And02x01     And_S     Out     0.000     0.000 r     -         
+And0[3]                              Net          -         -       -         -           3         
+FA02.FA_HA01.HA_Xor01.Xor_S_i_o2     ORCALUT4     A         In      0.000     0.000 r     -         
+FA02.FA_HA01.HA_Xor01.Xor_S_i_o2     ORCALUT4     Z         Out     0.449     0.449 r     -         
+HA01_S                               Net          -         -       -         -           2         
+FA11.FA_HA01.HA_Xor01.Xor_S_0_a2     ORCALUT4     D         In      0.000     0.449 r     -         
+FA11.FA_HA01.HA_Xor01.Xor_S_0_a2     ORCALUT4     Z         Out     0.449     0.898 r     -         
+HA01_S_0                             Net          -         -       -         -           3         
+FA11.FA_HA02.HA_Xor01.Xor_S_0_a2     ORCALUT4     A         In      0.000     0.898 r     -         
+FA11.FA_HA02.HA_Xor01.Xor_S_0_a2     ORCALUT4     Z         Out     0.449     1.346 r     -         
+FAS1[1]                              Net          -         -       -         -           1         
+FA20.FA_HA01.HA_And01                And02x01     And_B     In      0.000     1.346 r     -         
+====================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       16
+
+
+Details:
+GSR:            1
+IB:             8
+OB:             8
+ORCALUT4:       32
+PUR:            1
+VHI:            1
+VLO:            27
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 64MB peak: 181MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Oct  4 11:12:09 2021
+
+###########################################################]

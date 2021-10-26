@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/25/2021 10:42:59
+#Project Location: D:/Clases/Arqui/2doParcial/rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "D:/Clases/Arqui/oscvhdl/div00.vhdl" "D:/Clases/Arqui/oscvhdl/osc00.vhdl" "D:/Clases/Arqui/oscvhdl/oscint00.vhdl" "D:/Clases/Arqui/oscvhdl/packageosc00.vhdl"
+prj_project save
+#Stop recording: 10/25/2021 11:21:40

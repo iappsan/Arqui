@@ -1,0 +1,94 @@
+D:/Clases/Arqui/adder4bit00/xora00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/xora00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/xora00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/xora00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/xora00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Error: D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl(5): (vcom-1136) Unknown identifier "packageadder4bit00".
+** Note: D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl(7): VHDL Compiler exiting
+
+} {6.0 9.0} {}} D:/Clases/Arqui/adder4bit00/fa00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/fa00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/fa00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/fa00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Error: D:/Clases/Arqui/adder4bit00/fa00.vhdl(5): (vcom-1136) Unknown identifier "packagefa00".
+** Note: D:/Clases/Arqui/adder4bit00/fa00.vhdl(7): VHDL Compiler exiting
+
+} {6.0 9.0} {}} D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/packagefa00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/packagefa00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/packagefa00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/packagefa00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/packagefa00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/anda00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/anda00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/anda00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/anda00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/anda00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/xnora00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/xnora00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/xnora00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/xnora00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/xnora00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/ha00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/ha00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/ha00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/ha00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Error: D:/Clases/Arqui/adder4bit00/ha00.vhdl(5): (vcom-1136) Unknown identifier "packageha00".
+** Note: D:/Clases/Arqui/adder4bit00/ha00.vhdl(7): VHDL Compiler exiting
+
+} {6.0 9.0} {}} D:/Clases/Arqui/adder4bit00/orao00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/orao00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/orao00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/orao00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/orao00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}} D:/Clases/Arqui/adder4bit00/packageha00.vhdl {0 {vcom -work work -2002 -explicit -stats=none D:/Clases/Arqui/adder4bit00/packageha00.vhdl
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: D:/Clases/Arqui/adder4bit00/packageha00.vhdl(3): (vcom-1598) Library "lattice" not found.
+** Error: D:/Clases/Arqui/adder4bit00/packageha00.vhdl(4): (vcom-1136) Unknown identifier "lattice".
+** Note: D:/Clases/Arqui/adder4bit00/packageha00.vhdl(6): VHDL Compiler exiting
+
+} {6.0 8.0} {}}

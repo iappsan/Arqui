@@ -1,0 +1,2 @@
+@W: CD280 :"D:\Clases\Arqui\Multp04x02\Package_Multiplicador_02x04.vhdl":8:11:8:18|Unbound component And02x01 mapped to black box
+

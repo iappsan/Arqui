@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\adderlib8bit00B\adderlib8bit00B.vhdl":8:7:8:21|Top entity is set to adderlib8bit00B.
+@N: CD630 :"D:\Clases\Arqui\adderlib8bit00B\adderlib8bit00B.vhdl":8:7:8:21|Synthesizing work.adderlib8bit00b.adderlib8bit0b.
+@N|Running in 64-bit mode
+

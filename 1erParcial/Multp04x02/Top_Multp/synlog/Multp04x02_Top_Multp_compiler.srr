@@ -1,0 +1,118 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : Top_Multp
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : Top_Multp
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl":12:7:12:16|Top entity is set to Multp04x02.
+VHDL syntax check successful!
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl":12:7:12:16|Synthesizing work.multp04x02.top_multp.
+@W: CD280 :"D:\Clases\Arqui\Multp04x02\Package_Multiplicador_02x04.vhdl":8:11:8:18|Unbound component And02x01 mapped to black box
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl":7:7:7:20|Synthesizing work.fulladder03x01.modulo.
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\HalfAdder02x01.vhdl":7:7:7:20|Synthesizing work.halfadder02x01.modulo.
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\Xor02x01.vhdl":6:7:6:14|Synthesizing work.xor02x01.modulo.
+Post processing for work.xor02x01.modulo
+Running optimization stage 1 on Xor02x01 .......
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\Package_Multiplicador_02x04.vhdl":8:11:8:18|Synthesizing work.and02x01.syn_black_box.
+Post processing for work.and02x01.syn_black_box
+Running optimization stage 1 on And02x01 .......
+Post processing for work.halfadder02x01.modulo
+Running optimization stage 1 on HalfAdder02x01 .......
+@N: CD630 :"D:\Clases\Arqui\Multp04x02\Or02x01.vhdl":6:7:6:13|Synthesizing work.or02x01.modulo.
+Post processing for work.or02x01.modulo
+Running optimization stage 1 on Or02x01 .......
+Post processing for work.fulladder03x01.modulo
+Running optimization stage 1 on FullAdder03x01 .......
+Post processing for work.multp04x02.top_multp
+Running optimization stage 1 on Multp04x02 .......
+Running optimization stage 2 on Or02x01 .......
+Running optimization stage 2 on And02x01 .......
+Running optimization stage 2 on Xor02x01 .......
+Running optimization stage 2 on HalfAdder02x01 .......
+Running optimization stage 2 on FullAdder03x01 .......
+Running optimization stage 2 on Multp04x02 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\Multp04x02\Top_Multp\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct  4 11:12:03 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : Top_Multp
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct  4 11:12:03 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Clases\Arqui\Multp04x02\Top_Multp\synwork\Multp04x02_Top_Multp_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 30MB peak: 30MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct  4 11:12:03 2021
+
+###########################################################]

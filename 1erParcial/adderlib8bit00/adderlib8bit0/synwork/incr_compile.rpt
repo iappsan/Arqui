@@ -1,0 +1,44 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : adderlib8bit0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+0        D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl (2021-09-30 10:01:22, 2021-09-30 15:12:40)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.adderlib8bit00.adderlib8bit0 may have changed because the following files changed:
+                        D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl (2021-09-30 10:01:22, 2021-09-30 15:12:40) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 11
+FID:  path (timestamp)
+1        D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-14 23:32:12)
+2        D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 09:20:44)
+3        D:\LSCC\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 09:23:10)
+4        D:\LSCC\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 09:23:10)
+5        D:\LSCC\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 16:26:20)
+6        D:\LSCC\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 09:23:10)
+7        D:\LSCC\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 09:23:10)
+8        D:\LSCC\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 09:23:10)
+9        D:\LSCC\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 09:23:10)
+10       D:\LSCC\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 09:23:10)
+11       D:\LSCC\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 09:23:10)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

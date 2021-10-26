@@ -1,0 +1,2 @@
+set_option -top_module work.osc00
+project -fileorder "D:/LSCC/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd" "D:/Clases/Arqui/osc00/oscint00.vhdl" "D:/Clases/Arqui/osc00/div00.vhd" "D:/Clases/Arqui/osc00/packageosc00.vhdl" "D:/Clases/Arqui/osc00/osc00.vhdl" 

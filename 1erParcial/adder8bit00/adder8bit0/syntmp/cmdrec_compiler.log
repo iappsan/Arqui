@@ -1,0 +1,17 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Clases\Arqui\adder8bit00\adder8bit0\synwork\adder8bit00_adder8bit0_comp.srs  -top  adder8bit00  -hdllog  D:\Clases\Arqui\adder8bit00\adder8bit0\synlog\adder8bit00_adder8bit0_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Clases\Arqui\adder8bit00\adder8bit0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Clases\Arqui\adder8bit00\anda00.vhdl -lib work D:\Clases\Arqui\adder8bit00\xora00.vhdl -lib work D:\Clases\Arqui\adder8bit00\packageha00.vhdl -lib work D:\Clases\Arqui\adder8bit00\orao00.vhdl -lib work D:\Clases\Arqui\adder8bit00\packagefa00.vhd -lib work D:\Clases\Arqui\adder8bit00\xnora00.vhdl -lib work D:\Clases\Arqui\adder8bit00\packageadder4bit00.vhdl -lib work D:\Clases\Arqui\adder8bit00\ha00.vhdl -lib work D:\Clases\Arqui\adder8bit00\fa00.vhdl -lib work D:\Clases\Arqui\adder8bit00\adder8bit00.vhdl  -jobname  "compiler" 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe -osyn ..\synwork\adder8bit00_adder8bit0_comp.srs -top adder8bit00 -hdllog ..\synlog\adder8bit00_adder8bit0_compiler.srr -encrypt -mp 1 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\anda00.vhdl -lib work ..\..\xora00.vhdl -lib work ..\..\packageha00.vhdl -lib work ..\..\orao00.vhdl -lib work ..\..\packagefa00.vhd -lib work ..\..\xnora00.vhdl -lib work ..\..\packageadder4bit00.vhdl -lib work ..\..\ha00.vhdl -lib work ..\..\fa00.vhdl -lib work ..\..\adder8bit00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:3
+file:..\synwork\adder8bit00_adder8bit0_comp.srs|io:o|time:1633030490|size:5691|exec:0|csum:
+file:..\synlog\adder8bit00_adder8bit0_compiler.srr|io:o|time:1633030490|size:6091|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1542259932|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\anda00.vhdl|io:i|time:1633026898|size:249|exec:0|csum:92245ECEDE0A7560E4CBE9A1729B01D0
+file:..\..\xora00.vhdl|io:i|time:1633026930|size:249|exec:0|csum:29B5388CDCCE6BC42316D6B4A1B3A3FE
+file:..\..\packageha00.vhdl|io:i|time:1633026950|size:343|exec:0|csum:8C2E441CCFCA275F8C5FAFF9165D0E88
+file:..\..\orao00.vhdl|io:i|time:1633027026|size:248|exec:0|csum:443EEF6A942B73B8D960435BB30DF79A
+file:..\..\packagefa00.vhd|io:i|time:1633027046|size:358|exec:0|csum:2E0FC1D0A1D0EC194C745E000D14B134
+file:..\..\xnora00.vhdl|io:i|time:1633027089|size:259|exec:0|csum:7E1C9BC99F7212C21DD4448575607E0A
+file:..\..\packageadder4bit00.vhdl|io:i|time:1633027119|size:623|exec:0|csum:2A769B2CABA4E1D8934E582B11243849
+file:..\..\ha00.vhdl|io:i|time:1633026877|size:405|exec:0|csum:B51BC619F51439EB9CAD3B623AA8CA66
+file:..\..\fa00.vhdl|io:i|time:1633027066|size:629|exec:0|csum:01F40D49FCF2EDFD7E9A09D5E093A533
+file:..\..\adder8bit00.vhdl|io:i|time:1633030467|size:2971|exec:0|csum:234E52653034BE1384B500993BCB7A28
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe|io:i|time:1603984722|size:5736448|exec:1|csum:F3379711CDC83CA310869A1D9BD9BABE

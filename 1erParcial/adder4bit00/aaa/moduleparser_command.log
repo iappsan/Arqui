@@ -1,0 +1,1 @@
+D:/LSCC/diamond/3.12/bin/nt64/moduleparser.exe -PROJ aaa -pf D:/LSCC/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pf D:/LSCC/diamond/3.12/cae_library/synthesis/verilog/machxo2.v -pkg D:/LSCC/diamond/3.12/cae_library/vhdl_packages/vdbs -lst D:/Clases/Arqui/adder4bit00/aaa/source_files.lst

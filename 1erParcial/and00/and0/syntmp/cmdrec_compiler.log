@@ -1,0 +1,8 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Clases\Arqui\and00\and0\synwork\and00_and0_comp.srs  -top  and00  -hdllog  D:\Clases\Arqui\and00\and0\synlog\and00_and0_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Clases\Arqui\and00\and0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Clases\Arqui\and00\and00.vhdl  -jobname  "compiler" 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe -osyn ..\synwork\and00_and0_comp.srs -top and00 -hdllog ..\synlog\and00_and0_compiler.srr -encrypt -mp 1 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\and00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:2
+file:..\synwork\and00_and0_comp.srs|io:o|time:1630391130|size:1483|exec:0|csum:
+file:..\synlog\and00_and0_compiler.srr|io:o|time:1630391130|size:3748|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1542259932|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\and00.vhdl|io:i|time:1630384809|size:307|exec:0|csum:85100110F4ABB139B3A7E239FB8195A7
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe|io:i|time:1603984722|size:5736448|exec:1|csum:F3379711CDC83CA310869A1D9BD9BABE

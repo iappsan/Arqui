@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  and00  -multisrs  D:\Clases\Arqui\and00\and0\synwork\and00_and0_comp.srs  -osyn  D:\Clases\Arqui\and00\and0\synwork\and00_and0_mult.srs  -log  D:\Clases\Arqui\and00\and0\synlog\and00_and0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top and00 -multisrs ..\synwork\and00_and0_comp.srs -osyn ..\synwork\and00_and0_mult.srs -log ..\synlog\and00_and0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\and00_and0_comp.srs|io:i|time:1630391130|size:1483|exec:0|csum:21144DCB5A61BAA0405C5B6174471483
+file:..\synwork\and00_and0_mult.srs|io:o|time:1630391131|size:1221|exec:0|csum:
+file:..\synlog\and00_and0_multi_srs_gen.srr|io:o|time:1630391131|size:1036|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

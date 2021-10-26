@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  work.osc00  -multisrs  D:\Clases\Arqui\osc00\osc0\synwork\osc00_osc0_comp.srs  -osyn  D:\Clases\Arqui\osc00\osc0\synwork\osc00_osc0_mult.srs  -log  D:\Clases\Arqui\osc00\osc0\synlog\osc00_osc0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top work.osc00 -multisrs ..\synwork\osc00_osc0_comp.srs -osyn ..\synwork\osc00_osc0_mult.srs -log ..\synlog\osc00_osc0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\osc00_osc0_comp.srs|io:i|time:1633116096|size:4961|exec:0|csum:FD2496BC3410D6242B069E8B6547CDF6
+file:..\synwork\osc00_osc0_mult.srs|io:o|time:1633116097|size:2040|exec:0|csum:
+file:..\synlog\osc00_osc0_multi_srs_gen.srr|io:o|time:1633116097|size:1116|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

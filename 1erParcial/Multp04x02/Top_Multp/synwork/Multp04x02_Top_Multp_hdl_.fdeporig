@@ -1,0 +1,64 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|Multp04x02|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|D:\\Clases\\Arqui\\Multp04x02\\Top_Multp\\syntmp\\hdlorder.tcl"
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603984722
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604355980
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542259932
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\HalfAdder02x01.vhdl":1633362663
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\FullAdder03x01.vhdl":1633362700
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\Package_Multiplicador_02x04.vhdl":1633363292
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\Package_FullAdder_03x01.vhdl":1633362749
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\PackageHalfAdder_02x01.vhdl":1633362780
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\Or02x01.vhdl":1633362802
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\Xor02x01.vhdl":1633362827
+#CUR:"D:\\Clases\\Arqui\\Multp04x02\\Multiplicador_02x04_00.vhdl":1633363261
+0 "D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Clases\Arqui\Multp04x02\HalfAdder02x01.vhdl" vhdl
+2 "D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl" vhdl
+3 "D:\Clases\Arqui\Multp04x02\Package_Multiplicador_02x04.vhdl" vhdl
+4 "D:\Clases\Arqui\Multp04x02\Package_FullAdder_03x01.vhdl" vhdl
+5 "D:\Clases\Arqui\Multp04x02\PackageHalfAdder_02x01.vhdl" vhdl
+6 "D:\Clases\Arqui\Multp04x02\Or02x01.vhdl" vhdl
+7 "D:\Clases\Arqui\Multp04x02\Xor02x01.vhdl" vhdl
+8 "D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 7 5 
+2 6 1 4 
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 2 4 3 
+
+# Dependency Lists (Users Of)
+0 -1
+1 2 
+2 8 
+3 8 
+4 8 2 
+5 1 
+6 2 
+7 1 
+8 -1
+
+# Design Unit to File Association
+arch work halfadder02x01 modulo 1
+module work halfadder02x01 1
+arch work fulladder03x01 modulo 2
+module work fulladder03x01 2
+arch work or02x01 modulo 6
+module work or02x01 6
+arch work xor02x01 modulo 7
+module work xor02x01 7
+arch work multp04x02 top_multp 8
+module work multp04x02 8

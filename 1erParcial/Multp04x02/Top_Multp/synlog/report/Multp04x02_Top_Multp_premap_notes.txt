@@ -1,0 +1,9 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"d:\clases\arqui\multp04x02\halfadder02x01.vhdl":21:0:21:7|Removing instance HA_Xor01 (in view: work.HalfAdder02x01_0(modulo)) of type view:work.Xor02x01_1_1(modulo) because it does not drive other instances.
+@N: BN115 :"d:\clases\arqui\multp04x02\halfadder02x01.vhdl":21:0:21:7|Removing instance HA_Xor01 (in view: work.HalfAdder02x01_1_6(modulo)) of type view:work.Xor02x01_1_6(modulo) because it does not drive other instances.
+@N: BN115 :"d:\clases\arqui\multp04x02\halfadder02x01.vhdl":21:0:21:7|Removing instance HA_Xor01 (in view: work.HalfAdder02x01_1_7(modulo)) of type view:work.Xor02x01_1_9(modulo) because it does not drive other instances.
+@N: BN115 :"d:\clases\arqui\multp04x02\halfadder02x01.vhdl":21:0:21:7|Removing instance HA_Xor01 (in view: work.HalfAdder02x01_1_15(modulo)) of type view:work.Xor02x01_1_17(modulo) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist Multp04x02 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

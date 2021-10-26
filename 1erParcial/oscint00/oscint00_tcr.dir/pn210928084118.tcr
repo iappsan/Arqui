@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/28/2021 08:41:15
+#Project Location: D:/Clases/Arqui/oscint00; Project name: oscint00
+prj_project open "D:/Clases/Arqui/oscint00/oscint00.ldf"
+prj_project close
+#Stop recording: 9/28/2021 08:41:18

@@ -1,0 +1,101 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : adderlib8bit0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : adderlib8bit0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl":8:7:8:20|Top entity is set to adderlib8bit00.
+File D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl changed - recompiling
+File D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl changed - recompiling
+@N: CD630 :"D:\Clases\Arqui\adderlib8bit00\adderlib8bit00.vhdl":8:7:8:20|Synthesizing work.adderlib8bit00.adderlib8bit0.
+Post processing for work.adderlib8bit00.adderlib8bit0
+Running optimization stage 1 on adderlib8bit00 .......
+Running optimization stage 2 on adderlib8bit00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\adderlib8bit00\adderlib8bit0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 30 15:14:34 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : adderlib8bit0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File D:\Clases\Arqui\adderlib8bit00\adderlib8bit0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 30 15:14:34 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Clases\Arqui\adderlib8bit00\adderlib8bit0\synwork\adderlib8bit00_adderlib8bit0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 24MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 30 15:14:34 2021
+
+###########################################################]

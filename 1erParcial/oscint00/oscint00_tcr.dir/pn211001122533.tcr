@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/1/2021 12:20:09
+#Project Location: D:/Clases/Arqui/oscint00; Project name: oscint00
+prj_project open "D:/Clases/Arqui/oscint00/oscint00.ldf"
+prj_run Export -impl oscint0 -task Jedecgen
+pgr_project open "D:/Clases/Arqui/oscint00/oscint0/oscint0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 10/1/2021 12:25:33

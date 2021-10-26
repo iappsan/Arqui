@@ -1,0 +1,17 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Clases\Arqui\adder4bit00\adder4bit0\synwork\adder4bit00_adder4bit0_comp.srs  -top  adder4bit00  -hdllog  D:\Clases\Arqui\adder4bit00\adder4bit0\synlog\adder4bit00_adder4bit0_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Clases\Arqui\adder4bit00\adder4bit0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Clases\Arqui\adder4bit00\anda00.vhdl -lib work D:\Clases\Arqui\adder4bit00\xora00.vhdl -lib work D:\Clases\Arqui\adder4bit00\packageha00.vhdl -lib work D:\Clases\Arqui\adder4bit00\orao00.vhdl -lib work D:\Clases\Arqui\adder4bit00\packagefa00.vhdl -lib work D:\Clases\Arqui\adder4bit00\xnora00.vhdl -lib work D:\Clases\Arqui\adder4bit00\packageadder4bit00.vhdl -lib work D:\Clases\Arqui\adder4bit00\ha00.vhdl -lib work D:\Clases\Arqui\adder4bit00\fa00.vhdl -lib work D:\Clases\Arqui\adder4bit00\adder4bit00.vhdl  -jobname  "compiler" 
+relcom:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe -osyn ..\synwork\adder4bit00_adder4bit0_comp.srs -top adder4bit00 -hdllog ..\synlog\adder4bit00_adder4bit0_compiler.srr -encrypt -mp 1 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\anda00.vhdl -lib work ..\..\xora00.vhdl -lib work ..\..\packageha00.vhdl -lib work ..\..\orao00.vhdl -lib work ..\..\packagefa00.vhdl -lib work ..\..\xnora00.vhdl -lib work ..\..\packageadder4bit00.vhdl -lib work ..\..\ha00.vhdl -lib work ..\..\fa00.vhdl -lib work ..\..\adder4bit00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:3
+file:..\synwork\adder4bit00_adder4bit0_comp.srs|io:o|time:1633024165|size:5509|exec:0|csum:
+file:..\synlog\adder4bit00_adder4bit0_compiler.srr|io:o|time:1633024165|size:6231|exec:0|csum:
+file:..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1542259932|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\anda00.vhdl|io:i|time:1630418446|size:260|exec:0|csum:DBC17E75974EA4DC866DE0E03A451900
+file:..\..\xora00.vhdl|io:i|time:1630418509|size:249|exec:0|csum:29B5388CDCCE6BC42316D6B4A1B3A3FE
+file:..\..\packageha00.vhdl|io:i|time:1633022564|size:349|exec:0|csum:22D390F2A1DA2F42B949A255EA2BE9B3
+file:..\..\orao00.vhdl|io:i|time:1633009194|size:253|exec:0|csum:86609C75B1870BED57803A270C8D19AE
+file:..\..\packagefa00.vhdl|io:i|time:1633009287|size:370|exec:0|csum:FF42C9CB5D20AA17F03ACC928108EF6B
+file:..\..\xnora00.vhdl|io:i|time:1633010407|size:271|exec:0|csum:F73FA4B343BC78299D246B986009D741
+file:..\..\packageadder4bit00.vhdl|io:i|time:1633010707|size:637|exec:0|csum:1C9546248A952299F41AFDFCEFC5CA89
+file:..\..\ha00.vhdl|io:i|time:1633008497|size:430|exec:0|csum:2F631C535F2C6242D732D571B49277EB
+file:..\..\fa00.vhdl|io:i|time:1633024113|size:660|exec:0|csum:87722DA2D35F7D63A6837114520712DE
+file:..\..\adder4bit00.vhdl|io:i|time:1633024144|size:1967|exec:0|csum:D91B537BB6D85E3F65FB8A0E11C0111F
+file:..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe|io:i|time:1603984722|size:5736448|exec:1|csum:F3379711CDC83CA310869A1D9BD9BABE

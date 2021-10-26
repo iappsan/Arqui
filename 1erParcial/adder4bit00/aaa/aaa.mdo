@@ -1,0 +1,33 @@
+if {![file exists "D:/Clases/Arqui/adder4bit00/aaa/aaa.mpf"]} { 
+	project new "D:/Clases/Arqui/adder4bit00/aaa" aaa
+	project addfile "D:/Clases/Arqui/adder4bit00/packageha00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/packagefa00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/xora00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/xnora00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/anda00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/orao00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/ha00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/fa00.vhdl"
+	project addfile "D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "D:/Clases/Arqui/adder4bit00/packageha00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/packagefa00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/packageadder4bit00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/xora00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/xnora00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/anda00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/orao00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/ha00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/fa00.vhdl"
+	vcom -work work "D:/Clases/Arqui/adder4bit00/adder4bit00.vhdl"
+} else {
+	project open "D:/Clases/Arqui/adder4bit00/aaa/aaa"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  adder4bit00
+view wave
+add wave /*
+run 1000ns

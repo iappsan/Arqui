@@ -1,0 +1,67 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: PETITEPC
+
+Implementation : Top_Multp
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 19
+FID:  path (prevtimestamp, timestamp)
+0        D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl (N/A, 2021-10-04 10:51:40)
+1        D:\Clases\Arqui\Multp04x02\HalfAdder02x01.vhdl (N/A, 2021-10-04 10:51:03)
+2        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01)
+3        D:\Clases\Arqui\Multp04x02\Or02x01.vhdl (N/A, 2021-10-04 10:53:22)
+4        D:\Clases\Arqui\Multp04x02\PackageHalfAdder_02x01.vhdl (N/A, 2021-10-04 10:53:00)
+5        D:\Clases\Arqui\Multp04x02\Package_FullAdder_03x01.vhdl (N/A, 2021-10-04 10:52:29)
+6        D:\Clases\Arqui\Multp04x02\Package_Multiplicador_02x04.vhdl (N/A, 2021-10-04 11:01:32)
+7        D:\Clases\Arqui\Multp04x02\Xor02x01.vhdl (N/A, 2021-10-04 10:53:47)
+8        D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-14 23:32:12)
+9        D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd (N/A, 2020-10-29 09:20:44)
+10       D:\LSCC\diamond\3.12\synpbase\lib\vhd\arith.vhd (N/A, 2020-10-29 09:23:10)
+11       D:\LSCC\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (N/A, 2020-10-29 09:23:10)
+12       D:\LSCC\diamond\3.12\synpbase\lib\vhd\location.map (N/A, 2020-11-02 16:26:20)
+13       D:\LSCC\diamond\3.12\synpbase\lib\vhd\numeric.vhd (N/A, 2020-10-29 09:23:10)
+14       D:\LSCC\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2020-10-29 09:23:10)
+15       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std.vhd (N/A, 2020-10-29 09:23:10)
+16       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std1164.vhd (N/A, 2020-10-29 09:23:10)
+17       D:\LSCC\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (N/A, 2020-10-29 09:23:10)
+18       D:\LSCC\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (N/A, 2020-10-29 09:23:10)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 5
+MID:  lib.cell.view
+0        work.fulladder03x01.modulo may have changed because the following files changed:
+                        D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl (N/A, 2021-10-04 10:51:40) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01) <-- (may instantiate this module)
+2        work.halfadder02x01.modulo may have changed because the following files changed:
+                        D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl (N/A, 2021-10-04 10:51:40) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\HalfAdder02x01.vhdl (N/A, 2021-10-04 10:51:03) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01) <-- (may instantiate this module)
+4        work.multp04x02.top_multp may have changed because the following files changed:
+                        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01) <-- (architecture and entity definition)
+6        work.or02x01.modulo may have changed because the following files changed:
+                        D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl (N/A, 2021-10-04 10:51:40) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\Or02x01.vhdl (N/A, 2021-10-04 10:53:22) <-- (architecture and entity definition)
+8        work.xor02x01.modulo may have changed because the following files changed:
+                        D:\Clases\Arqui\Multp04x02\FullAdder03x01.vhdl (N/A, 2021-10-04 10:51:40) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\HalfAdder02x01.vhdl (N/A, 2021-10-04 10:51:03) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\Multiplicador_02x04_00.vhdl (N/A, 2021-10-04 11:01:01) <-- (may instantiate this module)
+                        D:\Clases\Arqui\Multp04x02\Xor02x01.vhdl (N/A, 2021-10-04 10:53:47) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

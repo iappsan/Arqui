@@ -1,0 +1,9 @@
+@N: CD630 :"D:\Clases\Arqui\adderlib8bit00B\adderlib8bit00B.vhdl":8:7:8:21|Synthesizing work.adderlib8bit00b.adderlib8bit0b.
+Post processing for work.adderlib8bit00b.adderlib8bit0b
+Running optimization stage 1 on adderlib8bit00B .......
+Running optimization stage 2 on adderlib8bit00B .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\adderlib8bit00B\adderlib8bit0B\synwork\layer0.rt.csv
+
