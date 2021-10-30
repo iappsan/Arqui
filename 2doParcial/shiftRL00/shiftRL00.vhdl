@@ -17,17 +17,19 @@ signal sshift: std_logic_vector(7 downto 0);
 begin
     pshift: process(clks)
     begin
-        case ens is
-            when '0' =>
-                outs <= (others => '0');
-                sshift <= ins;
+        if (clks'event and clks = '1') then
+            case ens is
+                when '0' =>
+                    outs <= (others => '0');
+                    sshift <= ins;
 
-            when '1' =>
-                sshift(0) <= '0';
-                sshift(7 downto 1) <= sshift(6 downto 0);
-                outs <= sshift;
+                when '1' =>
+                    sshift(0) <= '0';
+                    sshift(7 downto 1) <= sshift(6 downto 0);
+                    outs <= sshift;
 
-            when others => null;
-		end case;
+                when others => null;
+            end case;
+        end if;
     end process pshift;
 end shiftRL0;
