@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/26/2021 06:53:59
+#Project Location: C:/Users/ianni/Documents/Arqui/2doParcial/shiftRL00; Project name: shiftRL00
+prj_project new -name "shiftRL00" -impl "shiftRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/ianni/Documents/Arqui/oscvhdl/div00.vhdl" "C:/Users/ianni/Documents/Arqui/oscvhdl/osc00.vhdl" "C:/Users/ianni/Documents/Arqui/oscvhdl/oscint00.vhdl" "C:/Users/ianni/Documents/Arqui/oscvhdl/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/ianni/Documents/Arqui/2doParcial/shiftRL00/shiftRL00.vhdl"
+#Stop recording: 10/27/2021 20:21:45
