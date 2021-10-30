@@ -14,50 +14,45 @@ Hostname: LILGAMING-PC
 Implementation : shiftRL0
 Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
-Modified Files: 18
+Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-0        D:\Clases\Arqui\2doParcial\shiftRL00\packageshiftRL00.vhdl (N/A, 2021-10-30 12:22:58)
-1        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59)
-2        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl (N/A, 2021-10-30 12:56:25)
-3        D:\Clases\Arqui\oscvhdl\div00.vhdl (N/A, 2021-10-18 11:39:13)
-4        D:\Clases\Arqui\oscvhdl\osc00.vhdl (N/A, 2021-10-18 11:38:54)
-5        D:\Clases\Arqui\oscvhdl\oscint00.vhdl (N/A, 2021-10-18 11:39:21)
-6        D:\Clases\Arqui\oscvhdl\packageosc00.vhdl (N/A, 2021-10-18 11:39:04)
-7        D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-14 23:32:12)
-8        D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd (N/A, 2020-10-29 09:20:44)
-9        D:\LSCC\diamond\3.12\synpbase\lib\vhd\arith.vhd (N/A, 2020-10-29 09:23:10)
-10       D:\LSCC\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (N/A, 2020-10-29 09:23:10)
-11       D:\LSCC\diamond\3.12\synpbase\lib\vhd\location.map (N/A, 2020-11-02 16:26:20)
-12       D:\LSCC\diamond\3.12\synpbase\lib\vhd\numeric.vhd (N/A, 2020-10-29 09:23:10)
-13       D:\LSCC\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2020-10-29 09:23:10)
-14       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std.vhd (N/A, 2020-10-29 09:23:10)
-15       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std1164.vhd (N/A, 2020-10-29 09:23:10)
-16       D:\LSCC\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (N/A, 2020-10-29 09:23:10)
-17       D:\LSCC\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (N/A, 2020-10-29 09:23:10)
+1        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12)
+2        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl (2021-10-30 17:31:09, 2021-10-30 17:37:34)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 5
 MID:  lib.cell.view
 0        work.div00.div0 may have changed because the following files changed:
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59) <-- (may instantiate this module)
-                        D:\Clases\Arqui\oscvhdl\div00.vhdl (N/A, 2021-10-18 11:39:13) <-- (architecture and entity definition)
-                        D:\Clases\Arqui\oscvhdl\osc00.vhdl (N/A, 2021-10-18 11:38:54) <-- (may instantiate this module)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12) <-- (may instantiate this module)
 2        work.osc00.osc0 may have changed because the following files changed:
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59) <-- (may instantiate this module)
-                        D:\Clases\Arqui\oscvhdl\osc00.vhdl (N/A, 2021-10-18 11:38:54) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12) <-- (may instantiate this module)
 4        work.oscint00.oscint0 may have changed because the following files changed:
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59) <-- (may instantiate this module)
-                        D:\Clases\Arqui\oscvhdl\osc00.vhdl (N/A, 2021-10-18 11:38:54) <-- (may instantiate this module)
-                        D:\Clases\Arqui\oscvhdl\oscint00.vhdl (N/A, 2021-10-18 11:39:21) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12) <-- (may instantiate this module)
 6        work.shiftrl.shiftrl0 may have changed because the following files changed:
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12) <-- (architecture and entity definition)
 8        work.shiftrl00.shiftrl0 may have changed because the following files changed:
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (N/A, 2021-10-30 12:31:59) <-- (may instantiate this module)
-                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl (N/A, 2021-10-30 12:56:25) <-- (architecture and entity definition)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl (2021-10-30 17:34:14, 2021-10-30 17:36:12) <-- (may instantiate this module)
+                        D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl (2021-10-30 17:31:09, 2021-10-30 17:37:34) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 0
+Unmodified files: 16
 FID:  path (timestamp)
+0        D:\Clases\Arqui\2doParcial\shiftRL00\packageshiftRL00.vhdl (2021-10-30 17:33:52)
+3        D:\Clases\Arqui\oscvhdl\div00.vhdl (2021-10-18 11:39:13)
+4        D:\Clases\Arqui\oscvhdl\osc00.vhdl (2021-10-18 11:38:54)
+5        D:\Clases\Arqui\oscvhdl\oscint00.vhdl (2021-10-18 11:39:21)
+6        D:\Clases\Arqui\oscvhdl\packageosc00.vhdl (2021-10-18 11:39:04)
+7        D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-14 23:32:12)
+8        D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 09:20:44)
+9        D:\LSCC\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 09:23:10)
+10       D:\LSCC\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 09:23:10)
+11       D:\LSCC\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 16:26:20)
+12       D:\LSCC\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 09:23:10)
+13       D:\LSCC\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 09:23:10)
+14       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 09:23:10)
+15       D:\LSCC\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 09:23:10)
+16       D:\LSCC\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 09:23:10)
+17       D:\LSCC\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 09:23:10)
 
 *******************************************************************
 Unchanged modules: 0

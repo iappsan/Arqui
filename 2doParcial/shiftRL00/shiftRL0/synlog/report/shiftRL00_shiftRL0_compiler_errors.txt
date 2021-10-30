@@ -1,0 +1,6 @@
+@E: CD371 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":50:44:50:57|No matching overload for "+"
+@E: CD371 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":57:44:57:57|No matching overload for "+"
+@E: CD371 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":64:44:64:57|No matching overload for "+"
+@E: CD371 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":71:44:71:57|No matching overload for "+"
+@E: CD308 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":50:44:50:57|Unable to evaluate expression type
+

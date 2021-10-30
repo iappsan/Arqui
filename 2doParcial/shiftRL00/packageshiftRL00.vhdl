@@ -15,6 +15,8 @@ package packageshiftRL00 is
     port(
         clks: in std_logic;
         ens: in std_logic;
+        sels: in std_logic_vector(3 downto 0);
+        controls: in std_logic_vector(3 downto 0);
         ins: in std_logic_vector(7 downto 0);
         outs: out std_logic_vector(7 downto 0)
     );

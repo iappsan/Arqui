@@ -9,6 +9,8 @@ entity shiftRL is
         clk0: inout std_logic;
         cdiv0: in std_logic_vector(4 downto 0);
         en0: in std_logic;
+        sel0: in std_logic_vector(3 downto 0);
+        control0: in std_logic_vector(3 downto 0);
         in0: in std_logic_vector(7 downto 0);
         out0: out std_logic_vector(7 downto 0)
     );
@@ -24,6 +26,8 @@ begin
     SRL01: shiftRL00 port map(
         clks => clk0,
         ens => en0,
+        sels => sel0,
+        controls => control0,
         ins => in0,
         outs => out0
     );

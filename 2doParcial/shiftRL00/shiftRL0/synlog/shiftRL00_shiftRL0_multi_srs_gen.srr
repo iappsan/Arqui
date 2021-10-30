@@ -16,12 +16,13 @@ Implementation : shiftRL0
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
 @N|Running in 64-bit mode
+File D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL0\synwork\shiftRL00_shiftRL0_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Oct 30 12:59:33 2021
+# Sat Oct 30 17:38:05 2021
 
 ###########################################################]

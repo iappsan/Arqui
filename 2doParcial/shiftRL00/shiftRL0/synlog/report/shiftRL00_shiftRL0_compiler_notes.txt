@@ -2,7 +2,7 @@
 @N|Running in 64-bit mode
 @N:"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl":7:7:7:13|Top entity is set to shiftRL.
 @N: CD630 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl":7:7:7:13|Synthesizing work.shiftrl.shiftrl0.
-@N: CD630 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":6:7:6:15|Synthesizing work.shiftrl00.shiftrl0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":8:7:8:15|Synthesizing work.shiftrl00.shiftrl0.
 @N: CD630 :"D:\Clases\Arqui\oscvhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
 @N: CD630 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
 @N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":27:5:27:10|Removing redundant assignment.

@@ -15,24 +15,24 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  10/30/21  14:48:29
+Mapped on:  10/30/21  17:40:28
 
 Design Summary
 --------------
 
-   Number of registers:     39 out of  7209 (1%)
-      PFU registers:           31 out of  6864 (0%)
+   Number of registers:     43 out of  7209 (1%)
+      PFU registers:           35 out of  6864 (1%)
       PIO registers:            8 out of   345 (2%)
-   Number of SLICEs:        39 out of  3432 (1%)
-      SLICEs as Logic/ROM:     39 out of  3432 (1%)
+   Number of SLICEs:        53 out of  3432 (2%)
+      SLICEs as Logic/ROM:     53 out of  3432 (2%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:         77 out of  6864 (1%)
-      Number used as logic LUTs:         53
+      SLICEs as Carry:         15 out of  3432 (0%)
+   Number of LUT4s:        105 out of  6864 (2%)
+      Number used as logic LUTs:         75
       Number used as distributed RAM:     0
-      Number used as ripple logic:       24
+      Number used as ripple logic:       30
       Number used as shift registers:     0
-   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
+   Number of PIO sites used: 31 + 4(JTAG) out of 115 (30%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:        0 out of 1 (0%)
    EFB used :        No
@@ -58,7 +58,7 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
-     Net clk0_c: 12 loads, 12 rising, 0 falling (Driver: SRL00/OS01/oscout )
+     Net clk0_c: 14 loads, 14 rising, 0 falling (Driver: SRL00/OS01/oscout )
      Net SRL00/sclk: 13 loads, 13 rising, 0 falling (Driver:
 
                                     Page 1
@@ -66,27 +66,29 @@ Design Summary
 
 
 
-Design:  shiftRL                                       Date:  10/30/21  14:48:29
+Design:  shiftRL                                       Date:  10/30/21  17:40:28
 
 Design Summary (cont)
 ---------------------
      SRL00/OS00/OSCIinst0 )
-   Number of Clock Enables:  0
+   Number of Clock Enables:  2
+     Net N_30_i: 8 loads, 0 LSLICEs
+     Net SRL01/sshift_4_sqmuxa_i: 4 loads, 4 LSLICEs
    Number of LSRs:  2
-     Net en0_c: 8 loads, 0 LSLICEs
+     Net en0_c: 10 loads, 2 LSLICEs
      Net SRL00/OS01/un1_oscout42_i_0_RNIBEB41: 12 loads, 12 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net en0_c: 16 loads
+     Net en0_c: 21 loads
+     Net SRL01/N_74: 13 loads
      Net SRL00/OS01/un1_oscout42_i_0_RNIBEB41: 12 loads
+     Net N_30_i: 8 loads
      Net cdiv0_c[1]: 7 loads
+     Net sel0_c[0]: 7 loads
+     Net sel0_c[3]: 7 loads
      Net cdiv0_c[0]: 6 loads
      Net cdiv0_c[2]: 6 loads
-     Net cdiv0_c[4]: 6 loads
      Net SRL00/OS01/sdiv[18]: 6 loads
-     Net SRL00/OS01/N_57: 5 loads
-     Net SRL00/OS01/N_62: 5 loads
-     Net SRL00/OS01/sdiv[11]: 5 loads
 
 
 
@@ -124,18 +126,18 @@ IO (PIO) Attributes
 | out0[2]             | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | out0[1]             | OUTPUT    | LVCMOS25  | OUT        |
-+---------------------+-----------+-----------+------------+
-| out0[0]             | OUTPUT    | LVCMOS25  | OUT        |
 
                                     Page 2
 
 
 
 
-Design:  shiftRL                                       Date:  10/30/21  14:48:29
+Design:  shiftRL                                       Date:  10/30/21  17:40:28
 
 IO (PIO) Attributes (cont)
 --------------------------
++---------------------+-----------+-----------+------------+
+| out0[0]             | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | in0[7]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -152,6 +154,22 @@ IO (PIO) Attributes (cont)
 | in0[1]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | in0[0]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[3]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[2]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[1]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[0]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel0[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel0[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel0[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sel0[0]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | en0                 | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -171,34 +189,49 @@ Block VCC undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Block GND undriven or does not drive anything - clipped.
 Block SRL00/OS01/VCC undriven or does not drive anything - clipped.
-Block SRL01/GND undriven or does not drive anything - clipped.
-Block SRL01/VCC undriven or does not drive anything - clipped.
 Signal en0_c_i was merged into signal en0_c
 Signal SRL00/OS00/GND undriven or does not drive anything - clipped.
 Signal SRL00/OS01/GND undriven or does not drive anything - clipped.
-Signal VCC undriven or does not drive anything - clipped.
-Signal SRL00/OS00/OSCIinst0_SEDSTDBY undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/un1_sdiv_s_21_0_S1 undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/un1_sdiv_s_21_0_COUT undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
-     clipped.
-Signal SRL00/OS01/N_1 undriven or does not drive anything - clipped.
-Block en0_pad_RNINM18 was optimized away.
-Block SRL00/OS00/GND was optimized away.
-Block SRL00/OS01/GND was optimized away.
-
-     
-
 
                                     Page 3
 
 
 
 
-Design:  shiftRL                                       Date:  10/30/21  14:48:29
+Design:  shiftRL                                       Date:  10/30/21  17:40:28
+
+Removed logic (cont)
+--------------------
+Signal SRL01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal SRL00/OS00/OSCIinst0_SEDSTDBY undriven or does not drive anything -
+     clipped.
+Signal SRL00/OS01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal SRL00/OS01/N_3 undriven or does not drive anything - clipped.
+Signal SRL00/OS01/un1_sdiv_s_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal SRL00/OS01/un1_sdiv_s_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal SRL01/un1_scontrol_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal SRL01/N_1 undriven or does not drive anything - clipped.
+Block en0_pad_RNINM18 was optimized away.
+Block SRL00/OS00/GND was optimized away.
+Block SRL00/OS01/GND was optimized away.
+Block SRL01/GND was optimized away.
+
+     
 
 OSC Summary
 -----------
@@ -221,41 +254,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 58 MB
+   Peak Memory Usage: 59 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
