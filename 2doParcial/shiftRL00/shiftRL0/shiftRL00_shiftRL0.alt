@@ -1,0 +1,31 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Oct 30 14:48:39 2021 *
+NOTE DESIGN NAME: shiftRL *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 119 : out *
+NOTE PINS cdiv0[0] : 67 : in *
+NOTE PINS out0[7] : 10 : out *
+NOTE PINS out0[6] : 6 : out *
+NOTE PINS out0[5] : 4 : out *
+NOTE PINS out0[4] : 2 : out *
+NOTE PINS out0[3] : 9 : out *
+NOTE PINS out0[2] : 5 : out *
+NOTE PINS out0[1] : 3 : out *
+NOTE PINS out0[0] : 1 : out *
+NOTE PINS in0[7] : 54 : in *
+NOTE PINS in0[6] : 52 : in *
+NOTE PINS in0[5] : 48 : in *
+NOTE PINS in0[4] : 47 : in *
+NOTE PINS in0[3] : 43 : in *
+NOTE PINS in0[2] : 42 : in *
+NOTE PINS in0[1] : 39 : in *
+NOTE PINS in0[0] : 38 : in *
+NOTE PINS en0 : 56 : in *
+NOTE PINS cdiv0[4] : 74 : in *
+NOTE PINS cdiv0[3] : 76 : in *
+NOTE PINS cdiv0[2] : 73 : in *
+NOTE PINS cdiv0[1] : 75 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -24,6 +24,9 @@
         <Source name="shiftRL.vhdl" type="VHDL" type_short="VHDL">
             <Options top_module="shiftRL"/>
         </Source>
+        <Source name="shiftRL0/shiftRL0.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
         <Source name="shiftRL00.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>

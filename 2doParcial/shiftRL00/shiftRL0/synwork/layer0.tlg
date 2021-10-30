@@ -1,0 +1,36 @@
+@N: CD630 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL.vhdl":7:7:7:13|Synthesizing work.shiftrl.shiftrl0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL00.vhdl":6:7:6:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+Running optimization stage 1 on shiftRL00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":27:5:27:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":35:5:35:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":43:5:43:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":51:5:51:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":59:5:59:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":67:5:67:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":75:5:75:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":83:5:83:10|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.shiftrl.shiftrl0
+Running optimization stage 1 on shiftRL .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on shiftRL00 .......
+Running optimization stage 2 on shiftRL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\2doParcial\shiftRL00\shiftRL0\synwork\layer0.rt.csv
+

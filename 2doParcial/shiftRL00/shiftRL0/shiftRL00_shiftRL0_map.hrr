@@ -1,0 +1,51 @@
+---------------------------------------------------
+Report for cell shiftRL
+   Instance path: shiftRL
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.00        100.0
+                                 IOLGC	       8.00        100.0
+                                  LUT4	      53.00        100.0
+                                 IOREG	          8        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	         31        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             shiftRL00	          1        10.3
+                                 osc00	          1        89.7
+---------------------------------------------------
+Report for cell shiftRL00
+   Instance path: shiftRL/SRL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00        10.3
+                                  LUT4	       8.00        15.1
+                                PFUREG	          8        25.8
+---------------------------------------------------
+Report for cell osc00
+   Instance path: shiftRL/SRL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.00        89.7
+                                  LUT4	      45.00        84.9
+                                PFUREG	         23        74.2
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        89.7
+---------------------------------------------------
+Report for cell div00
+   Instance path: shiftRL/SRL00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.00        89.7
+                                  LUT4	      45.00        84.9
+                                PFUREG	         23        74.2
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: shiftRL/SRL00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
