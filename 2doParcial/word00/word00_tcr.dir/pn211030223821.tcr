@@ -1,0 +1,89 @@
+#Start recording tcl command: 10/30/2021 17:55:34
+#Project Location: D:/Clases/Arqui/2doParcial/word00; Project name: word00
+prj_project new -name "word00" -impl "word0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "D:/Clases/Arqui/oscvhdl/div00.vhdl" "D:/Clases/Arqui/oscvhdl/osc00.vhdl" "D:/Clases/Arqui/oscvhdl/oscint00.vhdl" "D:/Clases/Arqui/oscvhdl/packageosc00.vhdl"
+prj_project save
+prj_src add "D:/Clases/Arqui/2doParcial/word00/contring00.vhdl"
+prj_src add "D:/Clases/Arqui/2doParcial/word00/word00.vhdl"
+prj_src add "D:/Clases/Arqui/2doParcial/word00/coder00.vhdl"
+prj_src add "D:/Clases/Arqui/2doParcial/word00/packageword00.vhdl"
+prj_run Export -impl word0 -task Jedecgen
+prj_run Export -impl word0 -task Jedecgen
+pgr_project save "D:/Clases/Arqui/2doParcial/word00/word0/word0.xcf"
+prj_src add -exclude "D:/Clases/Arqui/2doParcial/word00/word0/word0.xcf"
+prj_src enable "D:/Clases/Arqui/2doParcial/word00/word0/word0.xcf"
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+prj_run Export -impl word0 -task Jedecgen
+pgr_program run
+pgr_project save "D:/Clases/Arqui/2doParcial/word00/word0/word0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 10/30/2021 22:38:21
