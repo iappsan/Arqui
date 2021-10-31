@@ -1,0 +1,40 @@
+#Start recording tcl command: 10/30/2021 12:20:26
+#Project Location: D:/Clases/Arqui/2doParcial/shiftRL00; Project name: shiftRL00
+prj_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL00.ldf"
+prj_src add "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL.vhdl"
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project save "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_src add -exclude "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_src enable "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+pgr_program run
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+pgr_program run
+pgr_project save "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+prj_run Export -impl shiftRL0 -task Jedecgen
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+pgr_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+pgr_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project close
+prj_run Export -impl shiftRL0 -task Jedecgen
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project open "D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+pgr_program run
+prj_project save
+prj_project close
+#Stop recording: 10/30/2021 17:53:02

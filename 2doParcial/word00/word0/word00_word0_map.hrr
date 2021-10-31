@@ -1,0 +1,56 @@
+---------------------------------------------------
+Report for cell word00
+   Instance path: word00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.00        100.0
+                                  LUT4	      57.00        100.0
+                                 IOBUF	         20        100.0
+                                PFUREG	         34        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1        85.0
+                               coder00	          1         7.7
+                            contring00	          1         7.3
+---------------------------------------------------
+Report for cell coder00
+   Instance path: word00/W02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.17         7.7
+                                  LUT4	      10.00        17.5
+---------------------------------------------------
+Report for cell contring00
+   Instance path: word00/W01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         7.3
+                                PFUREG	         11        32.4
+---------------------------------------------------
+Report for cell osc00
+   Instance path: word00/W00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.83        85.0
+                                  LUT4	      47.00        82.5
+                                PFUREG	         23        67.6
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        85.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: word00/W00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.83        85.0
+                                  LUT4	      47.00        82.5
+                                PFUREG	         23        67.6
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: word00/W00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

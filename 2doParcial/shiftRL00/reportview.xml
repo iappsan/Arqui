@@ -3,8 +3,8 @@
 <ReportView version="2.0">
     <Implement name="shiftRL0">
         <ToolReport id="tooldec" path="" status="0"/>
-        <ToolReport id="toolhle_genhierarchy" path="C:/Users/ianni/Documents/Arqui/2doParcial/shiftRL00/shiftRL0/hdla_gen_hierarchy.html" status="1"/>
-        <ToolReport id="toolpio" path="" status="0"/>
-        <ToolReport id="toolsso" path="" status="0"/>
+        <ToolReport id="toolhle_genhierarchy" path="D:/Clases/Arqui/2doParcial/shiftRL00/shiftRL0/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolpio" path="" status="2"/>
+        <ToolReport id="toolsso" path="" status="2"/>
     </Implement>
 </ReportView>

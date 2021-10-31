@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="shiftRL00" device="LCMXO2-7000HE-5TG144C" default_implementation="shiftRL0">
     <Options/>
     <Implementation title="shiftRL0" dir="shiftRL0" description="shiftRL0" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="shiftRL00"/>
+        <Options def_top="shiftRL"/>
         <Source name="../../oscvhdl/oscint00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -13,12 +13,18 @@
             <Options/>
         </Source>
         <Source name="../../oscvhdl/osc00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="osc00"/>
+            <Options/>
         </Source>
         <Source name="shiftRL00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="shiftRL00"/>
+            <Options/>
         </Source>
         <Source name="packageshiftRL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shiftRL.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="shiftRL"/>
+        </Source>
+        <Source name="shiftRL0/shiftRL0.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
         <Source name="shiftRL00.lpf" type="Logic Preference" type_short="LPF">

@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  word00  -multisrs  D:\Clases\Arqui\2doParcial\word00\word0\synwork\word00_word0_comp.srs  -osyn  D:\Clases\Arqui\2doParcial\word00\word0\synwork\word00_word0_mult.srs  -log  D:\Clases\Arqui\2doParcial\word00\word0\synlog\word00_word0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top word00 -multisrs ..\synwork\word00_word0_comp.srs -osyn ..\synwork\word00_word0_mult.srs -log ..\synlog\word00_word0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\word00_word0_comp.srs|io:i|time:1635651249|size:7603|exec:0|csum:BA93FF9C726B0522F4B6C721FC834476
+file:..\synwork\word00_word0_mult.srs|io:o|time:1635651250|size:2618|exec:0|csum:
+file:..\synlog\word00_word0_multi_srs_gen.srr|io:o|time:1635651250|size:1136|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD
