@@ -23,7 +23,7 @@
             <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1635651256"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1635651243"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1636054757"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="1635651243"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
@@ -32,12 +32,12 @@
         <Milestone name="Translate" build_result="2" build_time="1635651256">
             <Task name="Translate" build_result="2" update_result="0" update_time="1635651256"/>
         </Milestone>
-        <Report name="word00_word0.bgn" last_build_time="1635651267" last_build_size="4271"/>
-        <Report name="word00_word0.edi" last_build_time="1635651254" last_build_size="75779"/>
-        <Report name="word00_word0.jed" last_build_time="1635651267" last_build_size="1465113"/>
-        <Report name="word00_word0.ncd" last_build_time="1635651263" last_build_size="90075"/>
-        <Report name="word00_word0.ngd" last_build_time="1635651256" last_build_size="73360"/>
-        <Report name="word00_word0.twr" last_build_time="1635651264" last_build_size="68388"/>
-        <Report name="word00_word0_map.ncd" last_build_time="1635651257" last_build_size="63278"/>
+        <Report name="word00_word0.bgn" last_build_time="1635647667" last_build_size="4271"/>
+        <Report name="word00_word0.edi" last_build_time="1635647654" last_build_size="75779"/>
+        <Report name="word00_word0.jed" last_build_time="1635647667" last_build_size="1465113"/>
+        <Report name="word00_word0.ncd" last_build_time="1635647663" last_build_size="90075"/>
+        <Report name="word00_word0.ngd" last_build_time="1635647656" last_build_size="73360"/>
+        <Report name="word00_word0.twr" last_build_time="1635647664" last_build_size="68388"/>
+        <Report name="word00_word0_map.ncd" last_build_time="1635647657" last_build_size="63278"/>
     </Strategy>
 </BuildStatus>

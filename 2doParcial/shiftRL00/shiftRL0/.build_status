@@ -32,12 +32,12 @@
         <Milestone name="Translate" build_result="2" build_time="1635633491">
             <Task name="Translate" build_result="2" update_result="0" update_time="1635633491"/>
         </Milestone>
-        <Report name="shiftRL00_shiftRL0.bgn" last_build_time="1635633640" last_build_size="4362"/>
-        <Report name="shiftRL00_shiftRL0.edi" last_build_time="1635633489" last_build_size="100554"/>
-        <Report name="shiftRL00_shiftRL0.jed" last_build_time="1635633640" last_build_size="1465355"/>
-        <Report name="shiftRL00_shiftRL0.ncd" last_build_time="1635633636" last_build_size="121652"/>
-        <Report name="shiftRL00_shiftRL0.ngd" last_build_time="1635633491" last_build_size="99073"/>
-        <Report name="shiftRL00_shiftRL0.twr" last_build_time="1635633637" last_build_size="77264"/>
-        <Report name="shiftRL00_shiftRL0_map.ncd" last_build_time="1635633629" last_build_size="87200"/>
+        <Report name="shiftRL00_shiftRL0.bgn" last_build_time="1635630040" last_build_size="4362"/>
+        <Report name="shiftRL00_shiftRL0.edi" last_build_time="1635629889" last_build_size="100554"/>
+        <Report name="shiftRL00_shiftRL0.jed" last_build_time="1635630040" last_build_size="1465355"/>
+        <Report name="shiftRL00_shiftRL0.ncd" last_build_time="1635630036" last_build_size="121652"/>
+        <Report name="shiftRL00_shiftRL0.ngd" last_build_time="1635629891" last_build_size="99073"/>
+        <Report name="shiftRL00_shiftRL0.twr" last_build_time="1635630037" last_build_size="77264"/>
+        <Report name="shiftRL00_shiftRL0_map.ncd" last_build_time="1635630029" last_build_size="87200"/>
     </Strategy>
 </BuildStatus>
