@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  key00  -multisrs  D:\Clases\Arqui\2doParcial\key00\key0\synwork\key00_key0_comp.srs  -osyn  D:\Clases\Arqui\2doParcial\key00\key0\synwork\key00_key0_mult.srs  -log  D:\Clases\Arqui\2doParcial\key00\key0\synlog\key00_key0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top key00 -multisrs ..\synwork\key00_key0_comp.srs -osyn ..\synwork\key00_key0_mult.srs -log ..\synlog\key00_key0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\key00_key0_comp.srs|io:i|time:1637337846|size:9168|exec:0|csum:0521202D2716ED9D987B88E6703C2B6D
+file:..\synwork\key00_key0_mult.srs|io:o|time:1637337847|size:2853|exec:0|csum:
+file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1637337847|size:1131|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD
