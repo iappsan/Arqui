@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>D:/Clases/Arqui/2doParcial/key00/key0/key00_key0.jed</File>
-			<FileTime>11/19/21 09:46:50</FileTime>
-			<JedecChecksum>0xBC69</JedecChecksum>
+			<FileTime>11/19/21 10:04:24</FileTime>
+			<JedecChecksum>0xBA66</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
