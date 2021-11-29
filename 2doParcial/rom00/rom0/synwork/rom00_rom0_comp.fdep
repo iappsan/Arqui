@@ -1,0 +1,63 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Clases\\Arqui\\2doParcial\\rom00\\rom0\\synwork\\rom00_rom0_comp.srs|-top|rom00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603984722
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604355980
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542259932
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\oscint00.vhdl":1634575161
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\cpld\\lattice.vhd":1603984844
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\div00.vhdl":1634575153
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\packageosc00.vhdl":1634575144
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\rom00\\contRead00.vhdl":1638202434
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\rom00\\memrom00.vhdl":1638202584
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\rom00\\packagerom00.vhdl":1638196712
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\osc00.vhdl":1634575134
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\rom00\\rom00.vhdl":1638199069
+0			"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"D:\Clases\Arqui\oscvhdl\oscint00.vhdl" vhdl
+2			"D:\Clases\Arqui\oscvhdl\div00.vhdl" vhdl
+3			"D:\Clases\Arqui\oscvhdl\packageosc00.vhdl" vhdl
+4			"D:\Clases\Arqui\2doParcial\rom00\contRead00.vhdl" vhdl
+5			"D:\Clases\Arqui\2doParcial\rom00\memrom00.vhdl" vhdl
+6			"D:\Clases\Arqui\2doParcial\rom00\packagerom00.vhdl" vhdl
+7			"D:\Clases\Arqui\oscvhdl\osc00.vhdl" vhdl
+8			"D:\Clases\Arqui\2doParcial\rom00\rom00.vhdl" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 3 2 1
+8 6 5 4 7
+#Dependency Lists(Users Of)
+0 -1
+1 7
+2 7
+3 7
+4 8
+5 8
+6 8
+7 8
+8 -1
+#Design Unit to File Association
+module work rom00 8
+arch work rom00 rom0 8
+module work osc00 7
+arch work osc00 osc0 7
+module work memrom00 5
+arch work memrom00 memrom0 5
+module work contread00 4
+arch work contread00 contread0 4
+module work div00 2
+arch work div00 div0 2
+module work oscint00 1
+arch work oscint00 oscint0 1

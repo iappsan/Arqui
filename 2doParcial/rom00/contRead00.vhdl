@@ -20,7 +20,7 @@ begin
         if(clkc'event and clkc = '1') then
             case enc is
                 when '0' =>
-                    outc <= (others => '1');
+                    outc <= (others => '0');
                 when '1' =>
                     if (outc < "10000") then
                         outc <= outc + '1';
