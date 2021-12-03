@@ -1,0 +1,18 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Clases\Arqui\2doParcial\ram00\ram0\synwork\ram00_ram0_comp.srs  -top  ram00  -hdllog  D:\Clases\Arqui\2doParcial\ram00\ram0\synlog\ram00_ram0_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Clases\Arqui\2doParcial\ram00\ram0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Clases\Arqui\oscvhdl\oscint00.vhdl -lib work D:\Clases\Arqui\oscvhdl\div00.vhdl -lib work D:\Clases\Arqui\oscvhdl\packageosc00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\contring00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\muxram00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\packageram00.vhdl -lib work D:\Clases\Arqui\oscvhdl\osc00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl -lib work D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl  -jobname  "compiler" 
+relcom:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe -osyn ..\synwork\ram00_ram0_comp.srs -top ram00 -hdllog ..\synlog\ram00_ram0_compiler.srr -encrypt -mp 1 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\..\oscvhdl\oscint00.vhdl -lib work ..\..\..\..\oscvhdl\div00.vhdl -lib work ..\..\..\..\oscvhdl\packageosc00.vhdl -lib work ..\..\contring00.vhdl -lib work ..\..\memram00.vhdl -lib work ..\..\contRead00.vhdl -lib work ..\..\muxram00.vhdl -lib work ..\..\packageram00.vhdl -lib work ..\..\..\..\oscvhdl\osc00.vhdl -lib work ..\..\coder00.vhdl -lib work ..\..\ram00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:2
+file:..\synwork\ram00_ram0_comp.srs|io:o|time:1638563739|size:13347|exec:0|csum:
+file:..\synlog\ram00_ram0_compiler.srr|io:o|time:1638563739|size:9629|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1542259932|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\..\oscvhdl\oscint00.vhdl|io:i|time:1634575161|size:523|exec:0|csum:D7A2CF6D0E041110A660583EAF76211A
+file:..\..\..\..\oscvhdl\div00.vhdl|io:i|time:1634575153|size:2128|exec:0|csum:B3DACB3DD186293A9320A67687808CCC
+file:..\..\..\..\oscvhdl\packageosc00.vhdl|io:i|time:1634575144|size:346|exec:0|csum:A8E9B95DC597404A15A1D4C2B2CEAFFA
+file:..\..\contring00.vhdl|io:i|time:1638560096|size:787|exec:0|csum:E16CDEC4E327498DA2F12CD30E8FCE5B
+file:..\..\memram00.vhdl|io:i|time:1638558597|size:1467|exec:0|csum:C4585C9EF3D5F9FA85CDFE9F2534C48B
+file:..\..\contRead00.vhdl|io:i|time:1638563733|size:1079|exec:0|csum:F8AA66459A3F7720FC6C81725F583BB7
+file:..\..\muxram00.vhdl|io:i|time:1638558575|size:690|exec:0|csum:B2A35E07F9B479C5468F8D1C69D5C1DE
+file:..\..\packageram00.vhdl|io:i|time:1638559059|size:1755|exec:0|csum:F03ADC8943BD330E0F0658AD7E1C6AB8
+file:..\..\..\..\oscvhdl\osc00.vhdl|io:i|time:1634575134|size:453|exec:0|csum:01462091B3883DB7B531A0B1A2793D80
+file:..\..\coder00.vhdl|io:i|time:1638563246|size:6147|exec:0|csum:76FFE55FC0588B71C796506135FA5BA6
+file:..\..\ram00.vhdl|io:i|time:1638559979|size:1914|exec:0|csum:E6BF50B406D689089A5BAB31541D01E9
+file:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_hdl.exe|io:i|time:1603984722|size:5736448|exec:1|csum:F3379711CDC83CA310869A1D9BD9BABE

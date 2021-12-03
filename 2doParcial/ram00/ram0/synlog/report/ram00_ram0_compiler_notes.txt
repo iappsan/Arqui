@@ -1,0 +1,41 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl":7:7:7:11|Top entity is set to ram00.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl":7:7:7:11|Synthesizing work.ram00.ram0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\muxram00.vhdl":6:7:6:14|Synthesizing work.muxram00.muxram0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":33:24:33:28|Removing redundant assignment.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl":8:7:8:14|Synthesizing work.memram00.memram0.
+@N: CL134 :"D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl":23:7:23:11|Found RAM sword, depth=64, width=7
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":9:7:9:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":50:10:50:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":60:10:60:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":70:10:70:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":80:10:80:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":97:10:97:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":107:10:107:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":117:10:117:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":127:10:127:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":144:10:144:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":154:10:154:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":164:10:164:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":174:10:174:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":191:10:191:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":201:10:201:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":211:10:211:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":221:10:221:22|Removing redundant assignment.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":27:5:27:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":35:5:35:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":43:5:43:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":51:5:51:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":59:5:59:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":67:5:67:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":75:5:75:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":83:5:83:10|Removing redundant assignment.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@N: CD630 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

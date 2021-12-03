@@ -1,0 +1,876 @@
+#Build: Synplify Pro (R) Q-2020.03L-SP1, Build 182R, Oct 29 2020
+#install: D:\LSCC\diamond\3.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: LILGAMING-PC
+
+# Fri Dec  3 13:36:36 2021
+
+#Implementation: ram0
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl":7:7:7:11|Top entity is set to ram00.
+VHDL syntax check successful!
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl":7:7:7:11|Synthesizing work.ram00.ram0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\muxram00.vhdl":6:7:6:14|Synthesizing work.muxram00.muxram0.
+Post processing for work.muxram00.muxram0
+Running optimization stage 1 on muxram00 .......
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":33:24:33:28|Removing redundant assignment.
+@W: CD638 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":19:7:19:16|Signal scontrolcr is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@W: CL252 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":19:7:19:16|Bit 0 of signal scontrolcr is floating -- simulation mismatch possible.
+@W: CL252 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":19:7:19:16|Bit 1 of signal scontrolcr is floating -- simulation mismatch possible.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl":8:7:8:14|Synthesizing work.memram00.memram0.
+Post processing for work.memram00.memram0
+Running optimization stage 1 on memram00 .......
+@N: CL134 :"D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl":23:7:23:11|Found RAM sword, depth=64, width=7
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":9:7:9:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":50:10:50:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":60:10:60:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":70:10:70:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":80:10:80:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":97:10:97:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":107:10:107:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":117:10:117:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":127:10:127:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":144:10:144:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":154:10:154:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":164:10:164:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":174:10:174:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":191:10:191:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":201:10:201:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":211:10:211:22|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl":221:10:221:22|Removing redundant assignment.
+Post processing for work.coder00.coder0
+Running optimization stage 1 on coder00 .......
+@N: CD630 :"D:\Clases\Arqui\2doParcial\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":27:5:27:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":35:5:35:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":43:5:43:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":51:5:51:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":59:5:59:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":67:5:67:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":75:5:75:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":83:5:83:10|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.ram00.ram0
+Running optimization stage 1 on ram00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on memram00 .......
+Running optimization stage 2 on contRead00 .......
+@W: CL305 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":24:8:24:9|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@N: CL159 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":10:4:10:8|Input clkcr is unused.
+@N: CL159 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":11:4:11:10|Input resetcr is unused.
+@N: CL159 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":12:4:12:7|Input rwcr is unused.
+@N: CL159 :"D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl":13:4:13:12|Input incontWcr is unused.
+Running optimization stage 2 on muxram00 .......
+Running optimization stage 2 on ram00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\2doParcial\ram00\ram0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 99MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec  3 13:36:37 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec  3 13:36:38 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Clases\Arqui\2doParcial\ram00\ram0\synwork\ram00_ram0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 29MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec  3 13:36:38 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec  3 13:36:39 2021
+
+###########################################################]
+Premap Report
+
+# Fri Dec  3 13:36:39 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Clases\Arqui\2doParcial\ram00\ram0\ram00_ram0_scck.rpt 
+See clock summary report "D:\Clases\Arqui\2doParcial\ram00\ram0\ram00_ram0_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX493 |Applying initial value "0" on instance aux0.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN115 :"d:\clases\arqui\2doparcial\ram00\ram00.vhdl":63:4:63:7|Removing instance RA04 (in view: work.ram00(ram0)) of type view:work.contRead00(contread0) because it does not drive other instances.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 171MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 171MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist ram00 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 171MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock                                              Clock                   Clock
+Level     Clock                               Frequency     Period        Type                                               Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       oscint00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                           Inferred_clkgroup_0     23   
+1 .         div00|oscout_derived_clock        2.1 MHz       480.769       derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0     37   
+==========================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                    Clock     Source                            Clock Pin               Non-clock Pin     Non-clock Pin
+Clock                               Load      Pin                               Seq Example             Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int_inferred_clock     23        RA00.OS00.OSCIinst0.OSC(OSCH)     RA00.OS01.oscout.C      -                 -            
+div00|oscout_derived_clock          37        RA00.OS01.oscout.Q[0](dffe)       RA03.sword[6:0].CLK     -                 -            
+=======================================================================================================================================
+
+@W: MT529 :"d:\clases\arqui\oscvhdl\div00.vhdl":20:1:20:2|Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including RA00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 23 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 31 clock pin(s) of sequential element(s)
+0 instances converted, 31 sequential instances remain driven by gated/generated clocks
+
+================================== Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element             Drive Element Type     Fanout     Sample Instance     
+----------------------------------------------------------------------------------------------------
+@KP:ckid0_2       RA00.OS00.OSCIinst0.OSC     OSCH                   23         RA00.OS01.sdiv[21:0]
+====================================================================================================
+================================================================== Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Unconverted Fanout     Sample Instance         Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       RA00.OS01.oscout.Q[0]     dffe                   31                     RA03.outwordra[6:0]     Derived clock on input (not legal for GCC)
+============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 173MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec  3 13:36:40 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Dec  3 13:36:40 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : ram0
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 177MB peak: 177MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 181MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   468.61ns		  94 /        53
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 182MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Generating RAM RA03.sword[6:0]
+@N: MF135 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|RAM RA03.sword[6:0] (in view: work.ram00(ram0)) is 64 words by 7 bits.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram63_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram62_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram61_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram60_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram59_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram58_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram57_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram56_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram55_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram54_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram53_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram52_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram51_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[4] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[3] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[2] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[1] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram50_[0] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram49_[6] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\clases\arqui\2doparcial\ram00\memram00.vhdl":23:7:23:11|Removing sequential instance RA03.sword_ram49_[5] (in view: work.SYNRAM64X7(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log D:\Clases\Arqui\2doParcial\ram00\ram0\synlog\ram00_ram0_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+@A: BN291 :"d:\clases\arqui\2doparcial\ram00\contring00.vhdl":22:2:22:3|Boundary register RA01.outr_3_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\clases\arqui\2doparcial\ram00\contring00.vhdl":22:2:22:3|Boundary register RA01.outr_2_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\clases\arqui\2doparcial\ram00\contring00.vhdl":22:2:22:3|Boundary register RA01.outr_1_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\clases\arqui\2doparcial\ram00\contring00.vhdl":22:2:22:3|Boundary register RA01.outr_0_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\clases\arqui\2doparcial\ram00\coder00.vhdl":29:2:29:3|Boundary register RA02.outFlagc.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 182MB)
+
+Writing Analyst data base D:\Clases\Arqui\2doParcial\ram00\ram0\synwork\ram00_ram0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Clases\Arqui\2doParcial\ram00\ram0\ram00_ram0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 187MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 187MB)
+
+@W: MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RA00.OS00.sclk.
+@N: MT615 |Found clock div00|oscout_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Dec  3 13:36:43 2021
+#
+
+
+Top view:               ram00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 468.469
+
+                                    Requested     Estimated     Requested     Estimated                 Clock                                              Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type                                               Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|oscout_derived_clock          2.1 MHz       240.2 MHz     480.769       4.163         953.212     derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0
+oscint00|osc_int_inferred_clock     2.1 MHz       81.3 MHz      480.769       12.300        468.469     inferred                                           Inferred_clkgroup_0
+==============================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int_inferred_clock  oscint00|osc_int_inferred_clock  |  480.769     468.470  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|oscout_derived_clock       div00|oscout_derived_clock       |  480.769     953.212  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|oscout_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                              Arrival            
+Instance                  Reference                      Type        Pin     Net                Time        Slack  
+                          Clock                                                                                    
+-------------------------------------------------------------------------------------------------------------------
+RA01.outr[2]              div00|oscout_derived_clock     FD1P3IX     Q       outr0_c[2]         1.232       953.212
+RA01.outr[1]              div00|oscout_derived_clock     FD1P3IX     Q       outr0_c[1]         1.220       953.223
+RA01.outr[0]              div00|oscout_derived_clock     FD1P3IX     Q       outr0_c[0]         1.228       954.408
+RA01.outr[3]              div00|oscout_derived_clock     FD1P3IX     Q       outr0_c[3]         1.204       954.432
+RA02.aux0                 div00|oscout_derived_clock     FD1S3AX     Q       aux0               1.108       955.681
+RA02.outcontwritec[0]     div00|oscout_derived_clock     FD1S3IX     Q       outcontW0_c[0]     1.108       956.946
+RA02.outcontwritec[1]     div00|oscout_derived_clock     FD1S3IX     Q       outcontW0_c[1]     1.108       957.089
+RA02.outcontwritec[2]     div00|oscout_derived_clock     FD1S3IX     Q       outcontW0_c[2]     1.108       957.089
+RA02.outcontwritec[3]     div00|oscout_derived_clock     FD1S3IX     Q       outcontW0_c[3]     1.108       957.231
+RA02.outcontwritec[4]     div00|oscout_derived_clock     FD1S3IX     Q       outcontW0_c[4]     1.108       957.231
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                  Required            
+Instance                  Reference                      Type        Pin     Net                    Time         Slack  
+                          Clock                                                                                         
+------------------------------------------------------------------------------------------------------------------------
+RA02.outcontwritec[5]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[5]     961.433      953.212
+RA02.outcontwritec[3]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[3]     961.433      953.354
+RA02.outcontwritec[4]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[4]     961.433      953.354
+RA02.outcontwritec[1]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[1]     961.433      953.497
+RA02.outcontwritec[2]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[2]     961.433      953.497
+RA02.aux0                 div00|oscout_derived_clock     FD1S3AX     D       aux0_r                 961.627      954.239
+RA02.outcontwritec[0]     div00|oscout_derived_clock     FD1S3IX     D       outcontwritec_9[0]     961.433      955.381
+RA02.outwordc[0]          div00|oscout_derived_clock     FD1P3JX     SP      un1_outwordc65_2_i     961.067      956.225
+RA02.outwordc[1]          div00|oscout_derived_clock     FD1P3JX     SP      un1_outwordc65_2_i     961.067      956.225
+RA02.outwordc[2]          div00|oscout_derived_clock     FD1P3JX     SP      un1_outwordc65_2_i     961.067      956.225
+========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.433
+
+    - Propagation time:                      8.221
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 953.212
+
+    Number of logic level(s):                7
+    Starting point:                          RA01.outr[2] / Q
+    Ending point:                            RA02.outcontwritec[5] / D
+    The start point is clocked by            div00|oscout_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            div00|oscout_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|oscout_derived_clock to c:div00|oscout_derived_clock)
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+RA01.outr[2]                       FD1P3IX      Q        Out     1.232     1.232 r     -         
+outr0_c[2]                         Net          -        -       -         -           10        
+RA02.pcoder\.aux087_0_o2           ORCALUT4     B        In      0.000     1.232 r     -         
+RA02.pcoder\.aux087_0_o2           ORCALUT4     Z        Out     1.193     2.425 r     -         
+N_26                               Net          -        -       -         -           4         
+RA02.aux0_2_sqmuxa_3_0_o2          ORCALUT4     A        In      0.000     2.425 r     -         
+RA02.aux0_2_sqmuxa_3_0_o2          ORCALUT4     Z        Out     1.153     3.577 r     -         
+N_33                               Net          -        -       -         -           3         
+RA02.aux0_RNIQ4PM                  ORCALUT4     A        In      0.000     3.577 r     -         
+RA02.aux0_RNIQ4PM                  ORCALUT4     Z        Out     1.265     4.842 f     -         
+un1_outwordc65_2_i                 Net          -        -       -         -           8         
+RA02.un1_outcontwritec_cry_0_0     CCU2D        B0       In      0.000     4.842 f     -         
+RA02.un1_outcontwritec_cry_0_0     CCU2D        COUT     Out     1.544     6.387 r     -         
+un1_outcontwritec_cry_0            Net          -        -       -         -           1         
+RA02.un1_outcontwritec_cry_1_0     CCU2D        CIN      In      0.000     6.387 r     -         
+RA02.un1_outcontwritec_cry_1_0     CCU2D        COUT     Out     0.143     6.529 r     -         
+un1_outcontwritec_cry_2            Net          -        -       -         -           1         
+RA02.un1_outcontwritec_cry_3_0     CCU2D        CIN      In      0.000     6.529 r     -         
+RA02.un1_outcontwritec_cry_3_0     CCU2D        COUT     Out     0.143     6.672 r     -         
+un1_outcontwritec_cry_4            Net          -        -       -         -           1         
+RA02.un1_outcontwritec_s_5_0       CCU2D        CIN      In      0.000     6.672 r     -         
+RA02.un1_outcontwritec_s_5_0       CCU2D        S0       Out     1.549     8.221 r     -         
+outcontwritec_9[5]                 Net          -        -       -         -           1         
+RA02.outcontwritec[5]              FD1S3IX      D        In      0.000     8.221 r     -         
+=================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: oscint00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                             Arrival            
+Instance               Reference                           Type        Pin     Net          Time        Slack  
+                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------
+RA00.OS01.sdiv[8]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.148       468.469
+RA00.OS01.sdiv[9]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.148       468.469
+RA00.OS01.sdiv[10]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[10]     1.148       468.469
+RA00.OS01.sdiv[11]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.148       468.469
+RA00.OS01.sdiv[0]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      1.044       468.510
+RA00.OS01.sdiv[1]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]      1.044       468.510
+RA00.OS01.sdiv[2]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       468.510
+RA00.OS01.sdiv[3]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       468.510
+RA00.OS01.sdiv[4]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]      1.044       468.510
+RA00.OS01.sdiv[5]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]      1.044       468.510
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                Required            
+Instance               Reference                           Type        Pin     Net             Time         Slack  
+                       Clock                                                                                       
+-------------------------------------------------------------------------------------------------------------------
+RA00.OS01.sdiv[21]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[21]     480.664      468.469
+RA00.OS01.sdiv[19]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[19]     480.664      468.612
+RA00.OS01.sdiv[20]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[20]     480.664      468.612
+RA00.OS01.sdiv[17]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[17]     480.664      468.755
+RA00.OS01.sdiv[18]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[18]     480.664      468.755
+RA00.OS01.sdiv[15]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[15]     480.664      468.898
+RA00.OS01.sdiv[16]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[16]     480.664      468.898
+RA00.OS01.sdiv[13]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[13]     480.664      469.041
+RA00.OS01.sdiv[14]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[14]     480.664      469.041
+RA00.OS01.sdiv[11]     oscint00|osc_int_inferred_clock     FD1S3IX     D       sdiv_11[11]     480.664      469.183
+===================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      12.194
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     468.469
+
+    Number of logic level(s):                18
+    Starting point:                          RA00.OS01.sdiv[8] / Q
+    Ending point:                            RA00.OS01.sdiv[21] / D
+    The start point is clocked by            oscint00|osc_int_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            oscint00|osc_int_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+
+Instance / Net                                         Pin      Pin               Arrival      No. of    
+Name                                      Type         Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+RA00.OS01.sdiv[8]                         FD1S3IX      Q        Out     1.148     1.148 r      -         
+sdiv[8]                                   Net          -        -       -         -            4         
+RA00.OS01.pdiv\.oscout13lto18_i_a2_12     ORCALUT4     A        In      0.000     1.148 r      -         
+RA00.OS01.pdiv\.oscout13lto18_i_a2_12     ORCALUT4     Z        Out     1.089     2.237 f      -         
+N_3_13                                    Net          -        -       -         -            2         
+RA00.OS01.pdiv\.oscout13lto18_i_a2_17     ORCALUT4     B        In      0.000     2.237 f      -         
+RA00.OS01.pdiv\.oscout13lto18_i_a2_17     ORCALUT4     Z        Out     1.225     3.461 f      -         
+N_3_19                                    Net          -        -       -         -            5         
+RA00.OS01.pdiv\.oscout18lto18             ORCALUT4     A        In      0.000     3.461 f      -         
+RA00.OS01.pdiv\.oscout18lto18             ORCALUT4     Z        Out     1.017     4.478 r      -         
+oscout18lt21                              Net          -        -       -         -            1         
+RA00.OS01.oscout_0_sqmuxa_3               ORCALUT4     A        In      0.000     4.478 r      -         
+RA00.OS01.oscout_0_sqmuxa_3               ORCALUT4     Z        Out     1.089     5.567 r      -         
+oscout_0_sqmuxa_3                         Net          -        -       -         -            2         
+RA00.OS01.un1_oscout50_2_0                ORCALUT4     A        In      0.000     5.567 r      -         
+RA00.OS01.un1_oscout50_2_0                ORCALUT4     Z        Out     1.089     6.656 r      -         
+un1_oscout50_2_0                          Net          -        -       -         -            2         
+RA00.OS01.un1_sdiv_cry_0_0_RNO            ORCALUT4     A        In      0.000     6.656 r      -         
+RA00.OS01.un1_sdiv_cry_0_0_RNO            ORCALUT4     Z        Out     1.017     7.673 f      -         
+un1_oscout50_i                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_0_0                CCU2D        B0       In      0.000     7.673 f      -         
+RA00.OS01.un1_sdiv_cry_0_0                CCU2D        COUT     Out     1.544     9.217 r      -         
+un1_sdiv_cry_0                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_1_0                CCU2D        CIN      In      0.000     9.217 r      -         
+RA00.OS01.un1_sdiv_cry_1_0                CCU2D        COUT     Out     0.143     9.360 r      -         
+un1_sdiv_cry_2                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_3_0                CCU2D        CIN      In      0.000     9.360 r      -         
+RA00.OS01.un1_sdiv_cry_3_0                CCU2D        COUT     Out     0.143     9.503 r      -         
+un1_sdiv_cry_4                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_5_0                CCU2D        CIN      In      0.000     9.503 r      -         
+RA00.OS01.un1_sdiv_cry_5_0                CCU2D        COUT     Out     0.143     9.646 r      -         
+un1_sdiv_cry_6                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_7_0                CCU2D        CIN      In      0.000     9.646 r      -         
+RA00.OS01.un1_sdiv_cry_7_0                CCU2D        COUT     Out     0.143     9.788 r      -         
+un1_sdiv_cry_8                            Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_9_0                CCU2D        CIN      In      0.000     9.788 r      -         
+RA00.OS01.un1_sdiv_cry_9_0                CCU2D        COUT     Out     0.143     9.931 r      -         
+un1_sdiv_cry_10                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_11_0               CCU2D        CIN      In      0.000     9.931 r      -         
+RA00.OS01.un1_sdiv_cry_11_0               CCU2D        COUT     Out     0.143     10.074 r     -         
+un1_sdiv_cry_12                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_13_0               CCU2D        CIN      In      0.000     10.074 r     -         
+RA00.OS01.un1_sdiv_cry_13_0               CCU2D        COUT     Out     0.143     10.217 r     -         
+un1_sdiv_cry_14                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_15_0               CCU2D        CIN      In      0.000     10.217 r     -         
+RA00.OS01.un1_sdiv_cry_15_0               CCU2D        COUT     Out     0.143     10.360 r     -         
+un1_sdiv_cry_16                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_17_0               CCU2D        CIN      In      0.000     10.360 r     -         
+RA00.OS01.un1_sdiv_cry_17_0               CCU2D        COUT     Out     0.143     10.502 r     -         
+un1_sdiv_cry_18                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_cry_19_0               CCU2D        CIN      In      0.000     10.502 r     -         
+RA00.OS01.un1_sdiv_cry_19_0               CCU2D        COUT     Out     0.143     10.645 r     -         
+un1_sdiv_cry_20                           Net          -        -       -         -            1         
+RA00.OS01.un1_sdiv_s_21_0                 CCU2D        CIN      In      0.000     10.645 r     -         
+RA00.OS01.un1_sdiv_s_21_0                 CCU2D        S0       Out     1.549     12.194 r     -         
+sdiv_11[21]                               Net          -        -       -         -            1         
+RA00.OS01.sdiv[21]                        FD1S3IX      D        In      0.000     12.194 r     -         
+=========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 187MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 187MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 60 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       42
+
+
+Details:
+CCU2D:          16
+FD1P3AX:        7
+FD1P3IX:        8
+FD1P3JX:        15
+FD1S3AX:        2
+FD1S3IX:        28
+GSR:            1
+IB:             11
+INV:            2
+OB:             31
+ORCALUT4:       89
+OSCH:           1
+PUR:            1
+VHI:            5
+VLO:            7
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 65MB peak: 187MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Dec  3 13:36:43 2021
+
+###########################################################]

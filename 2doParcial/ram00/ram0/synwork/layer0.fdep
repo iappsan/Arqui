@@ -1,0 +1,88 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Clases\\Arqui\\2doParcial\\ram00\\ram0\\synwork\\ram00_ram0_comp.srs|-top|ram00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603984722
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604355980
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603984990
+#CUR:"D:\\LSCC\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542259932
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\oscint00.vhdl":1634575161
+#CUR:"D:\\LSCC\\diamond\\3.12\\synpbase\\lib\\cpld\\lattice.vhd":1603984844
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\div00.vhdl":1634575153
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\packageosc00.vhdl":1634575144
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\contring00.vhdl":1638560096
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\memram00.vhdl":1638558597
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\contRead00.vhdl":1638563733
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\muxram00.vhdl":1638558575
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\packageram00.vhdl":1638559059
+#CUR:"D:\\Clases\\Arqui\\oscvhdl\\osc00.vhdl":1634575134
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\coder00.vhdl":1638563246
+#CUR:"D:\\Clases\\Arqui\\2doParcial\\ram00\\ram00.vhdl":1638559979
+0 "D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Clases\Arqui\oscvhdl\oscint00.vhdl" vhdl
+2 "D:\Clases\Arqui\oscvhdl\div00.vhdl" vhdl
+3 "D:\Clases\Arqui\oscvhdl\packageosc00.vhdl" vhdl
+4 "D:\Clases\Arqui\2doParcial\ram00\contring00.vhdl" vhdl
+5 "D:\Clases\Arqui\2doParcial\ram00\memram00.vhdl" vhdl
+6 "D:\Clases\Arqui\2doParcial\ram00\contRead00.vhdl" vhdl
+7 "D:\Clases\Arqui\2doParcial\ram00\muxram00.vhdl" vhdl
+8 "D:\Clases\Arqui\2doParcial\ram00\packageram00.vhdl" vhdl
+9 "D:\Clases\Arqui\oscvhdl\osc00.vhdl" vhdl
+10 "D:\Clases\Arqui\2doParcial\ram00\coder00.vhdl" vhdl
+11 "D:\Clases\Arqui\2doParcial\ram00\ram00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 1 2 3 
+10 3 
+11 9 4 10 5 6 7 8 
+
+# Dependency Lists (Users Of)
+0 -1
+1 9 
+2 9 
+3 10 9 
+4 11 
+5 11 
+6 11 
+7 11 
+8 11 
+9 11 
+10 11 
+11 -1
+
+# Design Unit to File Association
+arch work oscint00 oscint0 1
+module work oscint00 1
+arch work div00 div0 2
+module work div00 2
+arch work contring00 contring0 4
+module work contring00 4
+arch work memram00 memram0 5
+module work memram00 5
+arch work contread00 contread0 6
+module work contread00 6
+arch work muxram00 muxram0 7
+module work muxram00 7
+arch work osc00 osc0 9
+module work osc00 9
+arch work coder00 coder0 10
+module work coder00 10
+arch work ram00 ram0 11
+module work ram00 11
+
+
+# Configuration files used

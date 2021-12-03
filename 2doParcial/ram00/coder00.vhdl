@@ -226,12 +226,7 @@ scontrolc <= (resetc)&(rwc);
 
 						when others => null;
 					end case;
-				when "01" => 
-					outwordc <= "1111111";
-					outcontwritec <= "000000";
-					outFlagc <= '0';
-					aux0:='0';
-
+					
 				when others => null; 
 			end case;
 		end if;

@@ -18,7 +18,7 @@ end contRead00;
 architecture contRead0 of contRead00 is
 signal scontrolcr: std_logic_vector(1 downto 0);
 begin
-
+    scontrolcr <= (resetcr)&(rwcr);
     pcontcr: process (clkcr)
     begin
         if (clkcr'event and clkcr = '1') then
