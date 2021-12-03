@@ -1,0 +1,9 @@
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:92:55:98|ROM outro_1[15:8] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:130:55:136|ROM outro_1[7:0] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:54:55:60|ROM outro_1[23:16] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:18:55:24|ROM outro_1[31:24] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:92:55:98|ROM outro_1[15:8] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:130:55:136|ROM outro_1[7:0] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:54:55:60|ROM outro_1[23:16] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\clases\arqui\2doparcial\rom01\memrom00.vhdl":55:18:55:24|ROM outro_1[31:24] (in view: work.memrom00(memrom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net R00.OS00.sclk.

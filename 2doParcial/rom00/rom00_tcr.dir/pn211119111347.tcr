@@ -1,8 +1,0 @@
-#Start recording tcl command: 11/19/2021 10:09:08
-#Project Location: D:/Clases/Arqui/2doParcial/rom00; Project name: rom00
-prj_project open "D:/Clases/Arqui/2doParcial/rom00/rom00.ldf"
-prj_src add "D:/Clases/Arqui/2doParcial/rom00/contRead00.vhdl"
-prj_src add "D:/Clases/Arqui/2doParcial/rom00/memrom00.vhdl"
-prj_src add "D:/Clases/Arqui/2doParcial/rom00/packagerom00.vhdl"
-prj_src add "D:/Clases/Arqui/2doParcial/rom00/rom00.vhdl"
-#Stop recording: 11/19/2021 11:13:47

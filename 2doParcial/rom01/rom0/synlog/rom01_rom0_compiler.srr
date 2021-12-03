@@ -1,0 +1,142 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : rom0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : rom0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"D:\Clases\Arqui\2doParcial\rom01\rom01.vhdl":7:7:7:11|Top entity is set to rom00.
+File D:\LSCC\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File D:\Clases\Arqui\oscvhdl\div00.vhdl changed - recompiling
+File D:\Clases\Arqui\oscvhdl\packageosc00.vhdl changed - recompiling
+File D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl changed - recompiling
+File D:\Clases\Arqui\2doParcial\rom01\memrom00.vhdl changed - recompiling
+File D:\Clases\Arqui\2doParcial\rom01\packagerom01.vhdl changed - recompiling
+File D:\Clases\Arqui\oscvhdl\osc00.vhdl changed - recompiling
+File D:\Clases\Arqui\2doParcial\rom01\rom01.vhdl changed - recompiling
+VHDL syntax check successful!
+File D:\Clases\Arqui\2doParcial\rom01\rom01.vhdl changed - recompiling
+@N: CD630 :"D:\Clases\Arqui\2doParcial\rom01\rom01.vhdl":7:7:7:11|Synthesizing work.rom00.rom0.
+@N: CD630 :"D:\Clases\Arqui\2doParcial\rom01\memrom00.vhdl":8:7:8:14|Synthesizing work.memrom00.memrom0.
+Post processing for work.memrom00.memrom0
+Running optimization stage 1 on memrom00 .......
+@N: CD630 :"D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl":28:24:28:27|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":27:5:27:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":35:5:35:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":43:5:43:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":51:5:51:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":59:5:59:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":67:5:67:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":75:5:75:10|Removing redundant assignment.
+@N: CD364 :"D:\Clases\Arqui\oscvhdl\div00.vhdl":83:5:83:10|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"D:\Clases\Arqui\oscvhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.rom00.rom0
+Running optimization stage 1 on rom00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contRead00 .......
+@N: CL189 :"D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl":20:8:20:9|Register bit outc(0) is always 0.
+@N: CL189 :"D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl":20:8:20:9|Register bit outc(1) is always 0.
+@W: CL279 :"D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl":20:8:20:9|Pruning register bits 1 to 0 of outc(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on memrom00 .......
+Running optimization stage 2 on rom00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 99MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 29 11:41:46 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: D:\LSCC\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LILGAMING-PC
+
+Implementation : rom0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 29 11:41:46 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\rom01_rom0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 29 11:41:46 2021
+
+###########################################################]

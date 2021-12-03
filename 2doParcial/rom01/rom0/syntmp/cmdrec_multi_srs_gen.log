@@ -1,0 +1,7 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  rom00  -multisrs  D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\rom01_rom0_comp.srs  -osyn  D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\rom01_rom0_mult.srs  -log  D:\Clases\Arqui\2doParcial\rom01\rom0\synlog\rom01_rom0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top rom00 -multisrs ..\synwork\rom01_rom0_comp.srs -osyn ..\synwork\rom01_rom0_mult.srs -log ..\synlog\rom01_rom0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\rom01_rom0_comp.srs|io:i|time:1638207706|size:8393|exec:0|csum:B808EA6D2E9643D1B4D8A29927BEC134
+file:..\synwork\rom01_rom0_mult.srs|io:o|time:1638207707|size:2716|exec:0|csum:
+file:..\synlog\rom01_rom0_multi_srs_gen.srr|io:o|time:1638207707|size:1131|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

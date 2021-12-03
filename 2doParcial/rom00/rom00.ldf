@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="rom00" device="LCMXO2-7000HE-5TG144C" default_implementation="rom0">
     <Options/>
     <Implementation title="rom0" dir="rom0" description="rom0" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="memrom00"/>
+        <Options def_top="rom00"/>
         <Source name="../../oscvhdl/oscint00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -13,18 +13,21 @@
             <Options/>
         </Source>
         <Source name="../../oscvhdl/osc00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="osc00"/>
+            <Options/>
         </Source>
         <Source name="contRead00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="contRead00"/>
+            <Options/>
         </Source>
         <Source name="memrom00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="memrom00"/>
+            <Options/>
         </Source>
         <Source name="packagerom00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="rom00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="rom00"/>
+        </Source>
+        <Source name="rom0/rom0.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
         <Source name="rom00.lpf" type="Logic Preference" type_short="LPF">

@@ -1,0 +1,15 @@
+D:\LSCC\diamond\3.12\synpbase\bin64\c_vhdl.exe  -osyn  D:\Clases\Arqui\2doParcial\rom01\rom0\synwork\rom01_rom0_hdl_.srs  -top  rom00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Clases\Arqui\2doParcial\rom01\rom0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Clases\Arqui\oscvhdl\oscint00.vhdl -lib work D:\Clases\Arqui\oscvhdl\div00.vhdl -lib work D:\Clases\Arqui\oscvhdl\packageosc00.vhdl -lib work D:\Clases\Arqui\oscvhdl\osc00.vhdl -lib work D:\Clases\Arqui\2doParcial\rom01\contRead00.vhdl -lib work D:\Clases\Arqui\2doParcial\rom01\memrom00.vhdl -lib work D:\Clases\Arqui\2doParcial\rom01\packagerom01.vhdl -lib work D:\Clases\Arqui\2doParcial\rom01\rom01.vhdl  -log  D:\Clases\Arqui\2doParcial\rom01\rom0\syntax.log  -fileorder  D:\Clases\Arqui\2doParcial\rom01\rom0\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\rom01_rom0_hdl_.srs -top rom00 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\..\oscvhdl\oscint00.vhdl -lib work ..\..\..\..\oscvhdl\div00.vhdl -lib work ..\..\..\..\oscvhdl\packageosc00.vhdl -lib work ..\..\..\..\oscvhdl\osc00.vhdl -lib work ..\..\contRead00.vhdl -lib work ..\..\memrom00.vhdl -lib work ..\..\packagerom01.vhdl -lib work ..\..\rom01.vhdl -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\rom01_rom0_hdl_.srs|io:o|time:0|size:-1|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1542259932|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\..\oscvhdl\oscint00.vhdl|io:i|time:1634575161|size:523|exec:0|csum:D7A2CF6D0E041110A660583EAF76211A
+file:..\..\..\..\oscvhdl\div00.vhdl|io:i|time:1634575153|size:2128|exec:0|csum:B3DACB3DD186293A9320A67687808CCC
+file:..\..\..\..\oscvhdl\packageosc00.vhdl|io:i|time:1634575144|size:346|exec:0|csum:A8E9B95DC597404A15A1D4C2B2CEAFFA
+file:..\..\..\..\oscvhdl\osc00.vhdl|io:i|time:1634575134|size:453|exec:0|csum:01462091B3883DB7B531A0B1A2793D80
+file:..\..\contRead00.vhdl|io:i|time:1638205827|size:864|exec:0|csum:2ED5749385FC39D8D48C186BACC443F3
+file:..\..\memrom00.vhdl|io:i|time:1638207654|size:1393|exec:0|csum:5FD5E2F3CF19642C911A3B6BD1B252D6
+file:..\..\packagerom01.vhdl|io:i|time:1638206480|size:631|exec:0|csum:5F71F384205E66EE9019E1C6E7E60C51
+file:..\..\rom01.vhdl|io:i|time:1638207700|size:652|exec:0|csum:496B039506F867071C358D8DA4C91711
+file:..\syntax.log|io:o|time:1638207704|size:1109|exec:0|csum:
+file:..\..\..\..\..\..\LSCC\diamond\3.12\synpbase\bin64\c_vhdl.exe|io:i|time:1603984722|size:6088192|exec:1|csum:65784030B81A37FDBF615E387BAB679B
